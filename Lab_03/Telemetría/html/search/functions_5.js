@@ -1,8 +1,0 @@
-var searchData=
-[
-  ['main_0',['main',['../main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.c']]],
-  ['mpu9250_5fread_5fraw_5faccel_1',['mpu9250_read_raw_accel',['../mpu9250_8c.html#abf4445a9f3a7d10c1aa5572bd1fa3212',1,'mpu9250.c']]],
-  ['mpu9250_5fread_5fraw_5fgyro_2',['mpu9250_read_raw_gyro',['../mpu9250_8c.html#a24d59508310fe2f62f1f2c42673bca5b',1,'mpu9250.c']]],
-  ['mpu9250_5fread_5fraw_5fmagnetometer_3',['mpu9250_read_raw_magnetometer',['../mpu9250_8c.html#a442cde6dfd87d0e433f8d6fc9ddd2831',1,'mpu9250.c']]],
-  ['mpu9250_5freset_4',['mpu9250_reset',['../mpu9250_8c.html#ad9f267f08872b77abc495847584a05f6',1,'mpu9250.c']]]
-];
