@@ -28,6 +28,7 @@
 
 #define WAITFORWAKEUP()  __asm volatile ("wfi") //Modo bajo consumo
 #define INT_BUTTON 6
+#define GPS_ENABLE 4
 #define INT_GPS 13
 #define LED_PIN 25
 #define TIMEOUT 5000
@@ -115,14 +116,17 @@ int main( void )
     // ---------------------- initialize the board ---------------------------
     lorawan_default_dev_eui(dev_eui);
     abp_settings.device_address = dev_eui;
-    stdio_init_all();
-    sleep_ms(4000);
-    printf("DEV_EUI: %s\n", abp_settings.device_address);
-    printf("APP_EUI: %s\n", abp_settings.app_session_key);
-    printf("APP_KEY: %s\n", abp_settings.network_session_key);
-
-    printf("Pico LoRaWAN - Button Panic and GPS\n\n");
     
+    stdio_init_all();
+    printf("Pico LoRaWAN - Button Panic and GPS\n\n");
+    gpio_init(GPS_ENABLE);
+    gpio_set_dir(GPS_ENABLE, GPIO_OUT);
+    gpio_put(GPS_ENABLE, 1);
+    sleep_ms(4000);
+    printf("DEV_ADDR: %s\n", abp_settings.device_address);
+    printf("APP_SKEY: %s\n", abp_settings.app_session_key);
+    printf("APP_NSKEY: %s\n", abp_settings.network_session_key);
+
     init_uart1();
     //uart_write_blocking(UART_ID, config2, sizeof(config2));
     //wait_for_response();
@@ -180,10 +184,11 @@ int main( void )
     };
 
     rtc_set_alarm(&alarm, &alarm_callback);
-    
+    gpio_put(GPS_ENABLE, 0);
     while (1) {
         lorawan_process();
         if(button_pressed || fired){ 
+            gpio_put(GPS_ENABLE, 1);
             gpio_put(PICO_DEFAULT_LED_PIN, 1);    
             const size_t length = uart_read_line(UART_ID, rx_buffer, BUFFER_SIZE);
             //send_gps(&latitude, &longitude, &last_message_time, &counter);
@@ -237,6 +242,7 @@ void send_gps(float *latitude, float *longitude, uint32_t *last_message_time, ui
                     button_pressed = false;
                     fired = false;
                     gpio_put(PICO_DEFAULT_LED_PIN, 0);
+                    gpio_put(GPS_ENABLE, 0);
                 }
             }
             *last_message_time = now;
