@@ -195,7 +195,6 @@ int main( void )
                 if (strncmp(rx_buffer, "$GNRMC", strlen("$GNRMC")) == 0 || strncmp(rx_buffer, "$GNGGA", strlen("$GNGGA")) == 0){
                     //printf("%s\n", rx_buffer);
                     float latitud = 0, longitud = 0;
-                    char pos[256];
                     decode(rx_buffer, &latitud, &longitud);
                     if((latitud > 0.0) && (longitud < 0.0)){ //Espera hasta encontrar una coordenada válida
                         send_gps(&latitud, &longitud, &last_message_time, &counter);
@@ -243,5 +242,3 @@ void send_gps(float *latitude, float *longitude, uint32_t *last_message_time, ui
             *last_message_time = now;
         }
 }
-
-

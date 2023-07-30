@@ -1769,9 +1769,9 @@ Discarded input sections
                 0x00000000        0x1 ..\..\__gps\lib__gps.a(__gps.c.obj)
  .rodata.STOPBITS
                 0x00000000        0x1 ..\..\__gps\lib__gps.a(__gps.c.obj)
- .text          0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\cc4CgWG5.o
- .data          0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\cc4CgWG5.o
- .bss           0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\cc4CgWG5.o
+ .text          0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccCrjFLW.o
+ .data          0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccCrjFLW.o
+ .bss           0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccCrjFLW.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-atof.o)
@@ -2138,7 +2138,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\ASUS\AppData\Local\Temp\cc4CgWG5.o
+ .boot2         0x10000000      0x100 C:\Users\ASUS\AppData\Local\Temp\ccCrjFLW.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -6789,7 +6789,7 @@ LOAD CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/sr
 LOAD CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 LOAD CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
 LOAD ..\..\__gps\lib__gps.a
-LOAD C:\Users\ASUS\AppData\Local\Temp\cc4CgWG5.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccCrjFLW.o
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -7024,7 +7024,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000011c6       0x2c ..\..\__gps\lib__gps.a(__gps.c.obj)
  .ARM.attributes
-                0x000011f2       0x22 C:\Users\ASUS\AppData\Local\Temp\cc4CgWG5.o
+                0x000011f2       0x22 C:\Users\ASUS\AppData\Local\Temp\ccCrjFLW.o
  .ARM.attributes
                 0x00001214       0x1e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -7216,111 +7216,111 @@ LOAD linker stubs
  .comment       0x00000049       0x4a CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
  .comment       0x00000049       0x4a ..\..\__gps\lib__gps.a(__gps.c.obj)
 
-.debug_info     0x00000000    0x7d8bd
- .debug_info    0x00000000     0x1651 CMakeFiles/pico_lorawan_send_data_gps.dir/main.c.obj
- .debug_info    0x00001651     0x4085 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/lorawan.c.obj
- .debug_info    0x000056d6     0x2b7c CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandlerMsgDisplay.c.obj
- .debug_info    0x00008252     0x18fb CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/NvmDataMgmt.c.obj
- .debug_info    0x00009b4d     0x37e6 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/LmHandler.c.obj
- .debug_info    0x0000d333     0x103c CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.c.obj
- .debug_info    0x0000e36f     0x24a9 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpClockSync.c.obj
- .debug_info    0x00010818     0x273b CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.c.obj
- .debug_info    0x00012f53     0x1713 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpFragmentation.c.obj
- .debug_info    0x00014666     0x18f7 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
- .debug_info    0x00015f5d      0x465 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/boards/mcu/utilities.c.obj
- .debug_info    0x000163c2     0x2dd9 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/Region.c.obj
- .debug_info    0x0001919b     0x288a CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAS923.c.obj
- .debug_info    0x0001ba25     0x272d CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAU915.c.obj
- .debug_info    0x0001e152      0x3ea CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionBaseUS.c.obj
- .debug_info    0x0001e53c     0x28a9 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470.c.obj
- .debug_info    0x00020de5      0x58a CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A20.c.obj
- .debug_info    0x0002136f      0x520 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A26.c.obj
- .debug_info    0x0002188f      0x61e CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B20.c.obj
- .debug_info    0x00021ead      0x541 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B26.c.obj
- .debug_info    0x000223ee     0x27f8 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN779.c.obj
- .debug_info    0x00024be6     0x1b9f CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCommon.c.obj
- .debug_info    0x00026785     0x27f8 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU433.c.obj
- .debug_info    0x00028f7d     0x288c CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU868.c.obj
- .debug_info    0x0002b809     0x2824 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionIN865.c.obj
- .debug_info    0x0002e02d     0x27b6 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionKR920.c.obj
- .debug_info    0x000307e3     0x27da CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionRU864.c.obj
- .debug_info    0x00032fbd     0x27df CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionUS915.c.obj
- .debug_info    0x0003579c     0x76c4 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMac.c.obj
- .debug_info    0x0003ce60      0x78e CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacAdr.c.obj
- .debug_info    0x0003d5ee     0x1feb CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacClassB.c.obj
- .debug_info    0x0003f5d9      0x9ac CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCommands.c.obj
- .debug_info    0x0003ff85      0xc90 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacConfirmQueue.c.obj
- .debug_info    0x00040c15     0x1c99 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCrypto.c.obj
- .debug_info    0x000428ae      0x50f CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacParser.c.obj
- .debug_info    0x00042dbd      0x671 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacSerializer.c.obj
- .debug_info    0x0004342e      0x675 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/aes.c.obj
- .debug_info    0x00043aa3      0x5c5 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/cmac.c.obj
- .debug_info    0x00044068       0xd1 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se-hal.c.obj
- .debug_info    0x00044139      0xdb3 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se.c.obj
- .debug_info    0x00044eec     0x226a CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/sx126x.c.obj
- .debug_info    0x00047156     0x2cdc CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/radio.c.obj
- .debug_info    0x00049e32      0x128 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/delay.c.obj
- .debug_info    0x00049f5a      0x82c CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/gpio.c.obj
- .debug_info    0x0004a786      0x35d CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/nvmm.c.obj
- .debug_info    0x0004aae3      0x8f2 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/systime.c.obj
- .debug_info    0x0004b3d5      0x844 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/timer.c.obj
- .debug_info    0x0004bc19      0x2e9 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/board.c.obj
- .debug_info    0x0004bf02       0xe0 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/delay-board.c.obj
- .debug_info    0x0004bfe2      0x134 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/eeprom-board.c.obj
- .debug_info    0x0004c116      0xddb CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/gpio-board.c.obj
- .debug_info    0x0004cef1      0xa69 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/rtc-board.c.obj
- .debug_info    0x0004d95a      0xa83 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/spi-board.c.obj
- .debug_info    0x0004e3dd     0x1b20 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/sx126x-board.c.obj
- .debug_info    0x0004fefd     0x16d8 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x000515d5      0x1e3 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x000517b8      0x6bc CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x00051e74      0x58e CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00052402     0x1c9c CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x0005409e      0x1a4 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x00054242     0x20d3 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x00056315      0x2d1 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_info    0x000565e6     0x4066 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x0005a64c     0x13ee CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x0005ba3a      0x21a CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
- .debug_info    0x0005bc54     0x123b CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x0005ce8f      0xb65 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_info    0x0005d9f4      0xf8d CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x0005e981      0x51b CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x0005ee9c      0x4ee CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x0005f38a      0x1d8 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x0005f562     0x1028 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0006058a     0x1a5f CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00061fe9       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x0006200b      0x27c CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00062287       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x000622a9       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x000622cb      0x2d1 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x0006259c     0x5586 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_info    0x00067b22       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x00067b44       0x26 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x00067b6a       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x00067b8c      0x2eb CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x00067e77       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_info    0x00067e99      0x334 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_info    0x000681cd       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x000681ef       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x00068211      0x2f6 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x00068507     0x1821 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x00069d28      0x79f CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_info    0x0006a4c7     0x1b83 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_info    0x0006c04a      0x5fc CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_info    0x0006c646      0x257 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_info    0x0006c89d      0xf22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_info    0x0006d7bf     0x2080 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_info    0x0006f83f      0xfe4 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_info    0x00070823     0x3c21 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_info    0x00074444      0x8be CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_info    0x00074d02     0x19bd CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_info    0x000766bf     0x14db CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_info    0x00077b9a     0x2851 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_info    0x0007a3eb     0x10c8 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .debug_info    0x0007b4b3      0x906 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
- .debug_info    0x0007bdb9     0x1b04 ..\..\__gps\lib__gps.a(__gps.c.obj)
+.debug_info     0x00000000    0x7d8b1
+ .debug_info    0x00000000     0x1645 CMakeFiles/pico_lorawan_send_data_gps.dir/main.c.obj
+ .debug_info    0x00001645     0x4085 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/lorawan.c.obj
+ .debug_info    0x000056ca     0x2b7c CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandlerMsgDisplay.c.obj
+ .debug_info    0x00008246     0x18fb CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/NvmDataMgmt.c.obj
+ .debug_info    0x00009b41     0x37e6 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/LmHandler.c.obj
+ .debug_info    0x0000d327     0x103c CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.c.obj
+ .debug_info    0x0000e363     0x24a9 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpClockSync.c.obj
+ .debug_info    0x0001080c     0x273b CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.c.obj
+ .debug_info    0x00012f47     0x1713 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpFragmentation.c.obj
+ .debug_info    0x0001465a     0x18f7 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
+ .debug_info    0x00015f51      0x465 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/boards/mcu/utilities.c.obj
+ .debug_info    0x000163b6     0x2dd9 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/Region.c.obj
+ .debug_info    0x0001918f     0x288a CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAS923.c.obj
+ .debug_info    0x0001ba19     0x272d CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAU915.c.obj
+ .debug_info    0x0001e146      0x3ea CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionBaseUS.c.obj
+ .debug_info    0x0001e530     0x28a9 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470.c.obj
+ .debug_info    0x00020dd9      0x58a CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A20.c.obj
+ .debug_info    0x00021363      0x520 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A26.c.obj
+ .debug_info    0x00021883      0x61e CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B20.c.obj
+ .debug_info    0x00021ea1      0x541 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B26.c.obj
+ .debug_info    0x000223e2     0x27f8 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN779.c.obj
+ .debug_info    0x00024bda     0x1b9f CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCommon.c.obj
+ .debug_info    0x00026779     0x27f8 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU433.c.obj
+ .debug_info    0x00028f71     0x288c CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU868.c.obj
+ .debug_info    0x0002b7fd     0x2824 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionIN865.c.obj
+ .debug_info    0x0002e021     0x27b6 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionKR920.c.obj
+ .debug_info    0x000307d7     0x27da CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionRU864.c.obj
+ .debug_info    0x00032fb1     0x27df CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionUS915.c.obj
+ .debug_info    0x00035790     0x76c4 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMac.c.obj
+ .debug_info    0x0003ce54      0x78e CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacAdr.c.obj
+ .debug_info    0x0003d5e2     0x1feb CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacClassB.c.obj
+ .debug_info    0x0003f5cd      0x9ac CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCommands.c.obj
+ .debug_info    0x0003ff79      0xc90 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacConfirmQueue.c.obj
+ .debug_info    0x00040c09     0x1c99 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCrypto.c.obj
+ .debug_info    0x000428a2      0x50f CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacParser.c.obj
+ .debug_info    0x00042db1      0x671 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacSerializer.c.obj
+ .debug_info    0x00043422      0x675 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/aes.c.obj
+ .debug_info    0x00043a97      0x5c5 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/cmac.c.obj
+ .debug_info    0x0004405c       0xd1 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se-hal.c.obj
+ .debug_info    0x0004412d      0xdb3 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se.c.obj
+ .debug_info    0x00044ee0     0x226a CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/sx126x.c.obj
+ .debug_info    0x0004714a     0x2cdc CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/radio.c.obj
+ .debug_info    0x00049e26      0x128 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/delay.c.obj
+ .debug_info    0x00049f4e      0x82c CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/gpio.c.obj
+ .debug_info    0x0004a77a      0x35d CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/nvmm.c.obj
+ .debug_info    0x0004aad7      0x8f2 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/systime.c.obj
+ .debug_info    0x0004b3c9      0x844 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/timer.c.obj
+ .debug_info    0x0004bc0d      0x2e9 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/board.c.obj
+ .debug_info    0x0004bef6       0xe0 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/delay-board.c.obj
+ .debug_info    0x0004bfd6      0x134 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/eeprom-board.c.obj
+ .debug_info    0x0004c10a      0xddb CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/gpio-board.c.obj
+ .debug_info    0x0004cee5      0xa69 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/rtc-board.c.obj
+ .debug_info    0x0004d94e      0xa83 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/spi-board.c.obj
+ .debug_info    0x0004e3d1     0x1b20 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/sx126x-board.c.obj
+ .debug_info    0x0004fef1     0x16d8 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x000515c9      0x1e3 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x000517ac      0x6bc CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x00051e68      0x58e CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x000523f6     0x1c9c CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x00054092      0x1a4 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x00054236     0x20d3 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x00056309      0x2d1 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_info    0x000565da     0x4066 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x0005a640     0x13ee CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x0005ba2e      0x21a CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+ .debug_info    0x0005bc48     0x123b CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x0005ce83      0xb65 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_info    0x0005d9e8      0xf8d CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0005e975      0x51b CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x0005ee90      0x4ee CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x0005f37e      0x1d8 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x0005f556     0x1028 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x0006057e     0x1a5f CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x00061fdd       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x00061fff      0x27c CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x0006227b       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x0006229d       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x000622bf      0x2d1 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x00062590     0x5586 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_info    0x00067b16       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x00067b38       0x26 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x00067b5e       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x00067b80      0x2eb CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x00067e6b       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_info    0x00067e8d      0x334 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_info    0x000681c1       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x000681e3       0x22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x00068205      0x2f6 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x000684fb     0x1821 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x00069d1c      0x79f CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_info    0x0006a4bb     0x1b83 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_info    0x0006c03e      0x5fc CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_info    0x0006c63a      0x257 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_info    0x0006c891      0xf22 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_info    0x0006d7b3     0x2080 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_info    0x0006f833      0xfe4 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_info    0x00070817     0x3c21 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_info    0x00074438      0x8be CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_info    0x00074cf6     0x19bd CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_info    0x000766b3     0x14db CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_info    0x00077b8e     0x2851 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_info    0x0007a3df     0x10c8 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .debug_info    0x0007b4a7      0x906 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+ .debug_info    0x0007bdad     0x1b04 ..\..\__gps\lib__gps.a(__gps.c.obj)
 
 .debug_abbrev   0x00000000    0x10b87
  .debug_abbrev  0x00000000      0x3df CMakeFiles/pico_lorawan_send_data_gps.dir/main.c.obj
@@ -7838,111 +7838,111 @@ LOAD linker stubs
  .debug_ranges  0x00007670       0x70 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
  .debug_ranges  0x000076e0      0xa60 ..\..\__gps\lib__gps.a(__gps.c.obj)
 
-.debug_line     0x00000000    0x3d508
- .debug_line    0x00000000      0xb48 CMakeFiles/pico_lorawan_send_data_gps.dir/main.c.obj
- .debug_line    0x00000b48     0x10ff CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/lorawan.c.obj
- .debug_line    0x00001c47      0x94a CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandlerMsgDisplay.c.obj
- .debug_line    0x00002591      0x533 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/NvmDataMgmt.c.obj
- .debug_line    0x00002ac4      0xff0 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/LmHandler.c.obj
- .debug_line    0x00003ab4      0xc32 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.c.obj
- .debug_line    0x000046e6      0x7a3 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpClockSync.c.obj
- .debug_line    0x00004e89      0xbcd CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.c.obj
- .debug_line    0x00005a56      0x82b CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpFragmentation.c.obj
- .debug_line    0x00006281      0x8a4 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
- .debug_line    0x00006b25      0x421 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/boards/mcu/utilities.c.obj
- .debug_line    0x00006f46      0xc53 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/Region.c.obj
- .debug_line    0x00007b99     0x102a CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAS923.c.obj
- .debug_line    0x00008bc3     0x1184 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAU915.c.obj
- .debug_line    0x00009d47      0x3a0 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionBaseUS.c.obj
- .debug_line    0x0000a0e7     0x11a4 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470.c.obj
- .debug_line    0x0000b28b      0x4d4 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A20.c.obj
- .debug_line    0x0000b75f      0x429 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A26.c.obj
- .debug_line    0x0000bb88      0x3ff CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B20.c.obj
- .debug_line    0x0000bf87      0x30e CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B26.c.obj
- .debug_line    0x0000c295      0xfa7 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN779.c.obj
- .debug_line    0x0000d23c      0xe0b CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCommon.c.obj
- .debug_line    0x0000e047      0xfa7 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU433.c.obj
- .debug_line    0x0000efee     0x102b CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU868.c.obj
- .debug_line    0x00010019      0xff3 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionIN865.c.obj
- .debug_line    0x0001100c     0x101e CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionKR920.c.obj
- .debug_line    0x0001202a      0xf9c CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionRU864.c.obj
- .debug_line    0x00012fc6     0x115f CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionUS915.c.obj
- .debug_line    0x00014125     0x44d8 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMac.c.obj
- .debug_line    0x000185fd      0x343 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacAdr.c.obj
- .debug_line    0x00018940      0x56d CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacClassB.c.obj
- .debug_line    0x00018ead      0x7f9 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCommands.c.obj
- .debug_line    0x000196a6      0x684 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacConfirmQueue.c.obj
- .debug_line    0x00019d2a      0xf31 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCrypto.c.obj
- .debug_line    0x0001ac5b      0x412 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacParser.c.obj
- .debug_line    0x0001b06d      0x4db CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacSerializer.c.obj
- .debug_line    0x0001b548      0x876 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/aes.c.obj
- .debug_line    0x0001bdbe      0x49d CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/cmac.c.obj
- .debug_line    0x0001c25b      0x18e CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se-hal.c.obj
- .debug_line    0x0001c3e9      0x75d CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se.c.obj
- .debug_line    0x0001cb46      0xec7 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/sx126x.c.obj
- .debug_line    0x0001da0d      0xef0 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/radio.c.obj
- .debug_line    0x0001e8fd      0x1a2 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/delay.c.obj
- .debug_line    0x0001ea9f      0x22f CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/gpio.c.obj
- .debug_line    0x0001ecce      0x2c0 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/nvmm.c.obj
- .debug_line    0x0001ef8e      0x6ef CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/systime.c.obj
- .debug_line    0x0001f67d      0x709 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/timer.c.obj
- .debug_line    0x0001fd86      0x2e7 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/board.c.obj
- .debug_line    0x0002006d      0x17d CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/delay-board.c.obj
- .debug_line    0x000201ea      0x13b CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/eeprom-board.c.obj
- .debug_line    0x00020325      0x4bd CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/gpio-board.c.obj
- .debug_line    0x000207e2      0x602 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/rtc-board.c.obj
- .debug_line    0x00020de4      0x448 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/spi-board.c.obj
- .debug_line    0x0002122c      0x6c4 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/sx126x-board.c.obj
- .debug_line    0x000218f0      0xc9a CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x0002258a      0x276 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00022800      0x46b CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x00022c6b      0x467 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x000230d2     0x1054 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00024126      0x21e CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00024344     0x10b3 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x000253f7      0x2a9 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x000256a0     0x1bb0 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00027250      0xc17 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00027e67      0x1bf CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
- .debug_line    0x00028026      0x8a0 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x000288c6      0x745 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x0002900b      0x9bc CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x000299c7      0x54f CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00029f16      0x403 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x0002a319      0x2a7 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0002a5c0      0xabe CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0002b07e     0x121c CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0002c29a      0x14b CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0002c3e5      0x22b CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0002c610      0x2d4 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0002c8e4      0x429 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0002cd0d      0x344 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0002d051     0x2c67 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_line    0x0002fcb8      0x6a1 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x00030359       0x9b CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x000303f4      0x3df CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x000307d3      0x336 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x00030b09      0x1cb CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x00030cd4      0x234 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_line    0x00030f08       0xc5 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x00030fcd       0xd3 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x000310a0      0x1b9 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x00031259      0xe81 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x000320da      0x451 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x0003252b      0xda1 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x000332cc      0x2db CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x000335a7      0x390 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x00033937      0x7cb CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x00034102      0xe81 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x00034f83      0xa1f CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x000359a2     0x1fe8 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x0003798a      0x47f CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x00037e09      0xe06 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00038c0f      0xbbb CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x000397ca     0x1531 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x0003acfb      0xd47 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .debug_line    0x0003ba42      0x93f CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
- .debug_line    0x0003c381     0x1187 ..\..\__gps\lib__gps.a(__gps.c.obj)
+.debug_line     0x00000000    0x3d507
+ .debug_line    0x00000000      0xb47 CMakeFiles/pico_lorawan_send_data_gps.dir/main.c.obj
+ .debug_line    0x00000b47     0x10ff CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/lorawan.c.obj
+ .debug_line    0x00001c46      0x94a CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandlerMsgDisplay.c.obj
+ .debug_line    0x00002590      0x533 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/NvmDataMgmt.c.obj
+ .debug_line    0x00002ac3      0xff0 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/LmHandler.c.obj
+ .debug_line    0x00003ab3      0xc32 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.c.obj
+ .debug_line    0x000046e5      0x7a3 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpClockSync.c.obj
+ .debug_line    0x00004e88      0xbcd CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.c.obj
+ .debug_line    0x00005a55      0x82b CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpFragmentation.c.obj
+ .debug_line    0x00006280      0x8a4 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
+ .debug_line    0x00006b24      0x421 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/boards/mcu/utilities.c.obj
+ .debug_line    0x00006f45      0xc53 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/Region.c.obj
+ .debug_line    0x00007b98     0x102a CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAS923.c.obj
+ .debug_line    0x00008bc2     0x1184 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAU915.c.obj
+ .debug_line    0x00009d46      0x3a0 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionBaseUS.c.obj
+ .debug_line    0x0000a0e6     0x11a4 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470.c.obj
+ .debug_line    0x0000b28a      0x4d4 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A20.c.obj
+ .debug_line    0x0000b75e      0x429 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A26.c.obj
+ .debug_line    0x0000bb87      0x3ff CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B20.c.obj
+ .debug_line    0x0000bf86      0x30e CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B26.c.obj
+ .debug_line    0x0000c294      0xfa7 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN779.c.obj
+ .debug_line    0x0000d23b      0xe0b CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCommon.c.obj
+ .debug_line    0x0000e046      0xfa7 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU433.c.obj
+ .debug_line    0x0000efed     0x102b CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU868.c.obj
+ .debug_line    0x00010018      0xff3 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionIN865.c.obj
+ .debug_line    0x0001100b     0x101e CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionKR920.c.obj
+ .debug_line    0x00012029      0xf9c CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionRU864.c.obj
+ .debug_line    0x00012fc5     0x115f CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionUS915.c.obj
+ .debug_line    0x00014124     0x44d8 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMac.c.obj
+ .debug_line    0x000185fc      0x343 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacAdr.c.obj
+ .debug_line    0x0001893f      0x56d CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacClassB.c.obj
+ .debug_line    0x00018eac      0x7f9 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCommands.c.obj
+ .debug_line    0x000196a5      0x684 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacConfirmQueue.c.obj
+ .debug_line    0x00019d29      0xf31 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCrypto.c.obj
+ .debug_line    0x0001ac5a      0x412 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacParser.c.obj
+ .debug_line    0x0001b06c      0x4db CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacSerializer.c.obj
+ .debug_line    0x0001b547      0x876 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/aes.c.obj
+ .debug_line    0x0001bdbd      0x49d CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/cmac.c.obj
+ .debug_line    0x0001c25a      0x18e CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se-hal.c.obj
+ .debug_line    0x0001c3e8      0x75d CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se.c.obj
+ .debug_line    0x0001cb45      0xec7 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/sx126x.c.obj
+ .debug_line    0x0001da0c      0xef0 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/radio.c.obj
+ .debug_line    0x0001e8fc      0x1a2 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/delay.c.obj
+ .debug_line    0x0001ea9e      0x22f CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/gpio.c.obj
+ .debug_line    0x0001eccd      0x2c0 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/nvmm.c.obj
+ .debug_line    0x0001ef8d      0x6ef CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/systime.c.obj
+ .debug_line    0x0001f67c      0x709 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/system/timer.c.obj
+ .debug_line    0x0001fd85      0x2e7 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/board.c.obj
+ .debug_line    0x0002006c      0x17d CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/delay-board.c.obj
+ .debug_line    0x000201e9      0x13b CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/eeprom-board.c.obj
+ .debug_line    0x00020324      0x4bd CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/gpio-board.c.obj
+ .debug_line    0x000207e1      0x602 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/rtc-board.c.obj
+ .debug_line    0x00020de3      0x448 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/spi-board.c.obj
+ .debug_line    0x0002122b      0x6c4 CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/sx126x-board.c.obj
+ .debug_line    0x000218ef      0xc9a CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00022589      0x276 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x000227ff      0x46b CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00022c6a      0x467 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x000230d1     0x1054 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00024125      0x21e CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00024343     0x10b3 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x000253f6      0x2a9 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x0002569f     0x1bb0 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x0002724f      0xc17 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x00027e66      0x1bf CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+ .debug_line    0x00028025      0x8a0 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x000288c5      0x745 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x0002900a      0x9bc CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x000299c6      0x54f CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00029f15      0x403 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x0002a318      0x2a7 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0002a5bf      0xabe CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0002b07d     0x121c CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0002c299      0x14b CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0002c3e4      0x22b CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0002c60f      0x2d4 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0002c8e3      0x429 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0002cd0c      0x344 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0002d050     0x2c67 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_line    0x0002fcb7      0x6a1 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x00030358       0x9b CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x000303f3      0x3df CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x000307d2      0x336 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x00030b08      0x1cb CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x00030cd3      0x234 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_line    0x00030f07       0xc5 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x00030fcc       0xd3 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0003109f      0x1b9 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x00031258      0xe81 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x000320d9      0x451 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0003252a      0xda1 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x000332cb      0x2db CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x000335a6      0x390 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x00033936      0x7cb CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x00034101      0xe81 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x00034f82      0xa1f CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x000359a1     0x1fe8 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x00037989      0x47f CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x00037e08      0xe06 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00038c0e      0xbbb CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x000397c9     0x1531 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x0003acfa      0xd47 CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .debug_line    0x0003ba41      0x93f CMakeFiles/pico_lorawan_send_data_gps.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+ .debug_line    0x0003c380     0x1187 ..\..\__gps\lib__gps.a(__gps.c.obj)
 
 .debug_str      0x00000000    0x15719
  .debug_str     0x00000000      0x9d4 CMakeFiles/pico_lorawan_send_data_gps.dir/main.c.obj

@@ -8,7 +8,7 @@ import pandas as pd
 browser_path="<:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe>" #Path of your browser
 webbrowser.register('Brave', None, webbrowser.BackgroundBrowser(browser_path))  # Chrome, Firefox, etc.
 
-map_center = [6.263432, -75.561852]  # Home, centrar el mapa donde está el gateway
+map_center = [6.263432, -75.561852]  # Home, centrar el mapa donde está el gateway CAMBIAR COORDENDAS
 my_map = folium.Map(location=map_center, zoom_start=20)
 
 def decode(input_string):
@@ -37,6 +37,6 @@ def read_txt(dir):
         my_map.save('recorrido.html')
     f.close()
 
-name_text = 'output.txt'    
+name_text = 'output.txt'
 read_txt(name_text)
 webbrowser.open('file://' + os.path.realpath('recorrido.html'))
