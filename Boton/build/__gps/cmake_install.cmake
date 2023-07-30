@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ASUS/Desktop/Boton/University/__gps
+# Install script for directory: C:/Users/ASUS/Desktop/Boton/University/Boton/__gps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

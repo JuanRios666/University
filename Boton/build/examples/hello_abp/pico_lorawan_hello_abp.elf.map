@@ -189,8 +189,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa0 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/CayenneLpp.c.obj
  .debug_ranges  0x00000000       0x90 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/CayenneLpp.c.obj
- .debug_line    0x00000000      0x751 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/CayenneLpp.c.obj
- .debug_str     0x00000000      0x40e CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/CayenneLpp.c.obj
+ .debug_line    0x00000000      0x75d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/CayenneLpp.c.obj
+ .debug_str     0x00000000      0x41a CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/CayenneLpp.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/CayenneLpp.c.obj
  .debug_frame   0x00000000      0x1e0 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/CayenneLpp.c.obj
  .ARM.attributes
@@ -208,8 +208,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x20 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/cli.c.obj
  .debug_ranges  0x00000000       0x10 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/cli.c.obj
- .debug_line    0x00000000      0x26a CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/cli.c.obj
- .debug_str     0x00000000      0x616 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/cli.c.obj
+ .debug_line    0x00000000      0x276 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/cli.c.obj
+ .debug_str     0x00000000      0x622 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/cli.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/cli.c.obj
  .debug_frame   0x00000000       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/cli.c.obj
  .ARM.attributes
@@ -538,7 +538,7 @@ Discarded input sections
                 0x00000000       0x38 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .debug_ranges  0x00000000       0x98 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .debug_line    0x00000000      0x5cf CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
- .debug_str     0x00000000      0x542 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+ .debug_str     0x00000000      0x548 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .debug_frame   0x00000000       0x90 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .ARM.attributes
@@ -688,7 +688,7 @@ Discarded input sections
                 0x00000000       0x60 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .debug_ranges  0x00000000      0x6b0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .debug_line    0x00000000      0xa7f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
- .debug_str     0x00000000      0x515 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+ .debug_str     0x00000000      0x51b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .debug_frame   0x00000000       0xec CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .ARM.attributes
@@ -791,7 +791,7 @@ Discarded input sections
                 0x00000000       0x38 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .debug_ranges  0x00000000      0x148 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .debug_line    0x00000000      0x54f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
- .debug_str     0x00000000      0x40e CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+ .debug_str     0x00000000      0x414 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .debug_frame   0x00000000       0x6c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .ARM.attributes
@@ -831,7 +831,7 @@ Discarded input sections
                 0x00000000       0x20 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .debug_ranges  0x00000000       0x10 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .debug_line    0x00000000      0x1bf CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
- .debug_str     0x00000000      0x225 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+ .debug_str     0x00000000      0x22b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .debug_frame   0x00000000       0x38 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .ARM.attributes
@@ -884,7 +884,7 @@ Discarded input sections
                 0x00000000       0x70 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
  .debug_ranges  0x00000000      0x630 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
  .debug_line    0x00000000      0x9ae CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
- .debug_str     0x00000000      0x47c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
+ .debug_str     0x00000000      0x482 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
  .debug_frame   0x00000000      0x12c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
  .ARM.attributes
@@ -911,7 +911,7 @@ Discarded input sections
                 0x00000000       0x40 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .debug_ranges  0x00000000       0xf8 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .debug_line    0x00000000      0x745 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_str     0x00000000      0x555 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_str     0x00000000      0x55b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .debug_frame   0x00000000       0x78 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .ARM.attributes
@@ -962,7 +962,7 @@ Discarded input sections
                 0x00000000       0x20 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .debug_ranges  0x00000000       0x10 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .debug_line    0x00000000      0x2b3 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
- .debug_str     0x00000000      0x347 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+ .debug_str     0x00000000      0x34d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .debug_frame   0x00000000       0x20 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .ARM.attributes
@@ -1003,7 +1003,7 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x12 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
  .debug_aranges
                 0x00000000       0x40 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
- .debug_str     0x00000000       0x97 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+ .debug_str     0x00000000       0x9d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
  .debug_ranges  0x00000000       0x38 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
  .ARM.attributes
                 0x00000000       0x22 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -1347,7 +1347,7 @@ Discarded input sections
                 0x00000000      0x128 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .debug_ranges  0x00000000      0x568 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .debug_line    0x00000000     0x27bd CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .debug_str     0x00000000      0x53c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .debug_str     0x00000000      0x542 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .debug_frame   0x00000000      0x3a4 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .ARM.attributes
@@ -1391,7 +1391,7 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .debug_ranges  0x00000000       0x38 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .debug_line    0x00000000      0x288 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
- .debug_str     0x00000000      0x3a7 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+ .debug_str     0x00000000      0x3ad CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .debug_frame   0x00000000       0xa0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .ARM.attributes
@@ -1518,7 +1518,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
- .debug_str     0x00000000      0x1a4 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+ .debug_str     0x00000000      0x1aa CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
@@ -1545,7 +1545,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
- .debug_str     0x00000000      0x1a0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+ .debug_str     0x00000000      0x1a6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
@@ -1557,7 +1557,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
- .debug_str     0x00000000      0x1a3 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+ .debug_str     0x00000000      0x1a9 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
@@ -1569,7 +1569,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
- .debug_str     0x00000000      0x1a0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+ .debug_str     0x00000000      0x1a6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
@@ -1581,7 +1581,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
- .debug_str     0x00000000      0x1a2 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+ .debug_str     0x00000000      0x1a8 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
@@ -1593,7 +1593,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
- .debug_str     0x00000000      0x1a0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+ .debug_str     0x00000000      0x1a6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
@@ -1605,7 +1605,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
- .debug_str     0x00000000      0x1a6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+ .debug_str     0x00000000      0x1ac CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
@@ -1617,7 +1617,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
- .debug_str     0x00000000      0x1a0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+ .debug_str     0x00000000      0x1a6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
@@ -1629,7 +1629,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
- .debug_str     0x00000000      0x1a6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+ .debug_str     0x00000000      0x1ac CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
@@ -1641,7 +1641,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_str     0x00000000      0x1a6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_str     0x00000000      0x1ac CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
@@ -1653,7 +1653,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
- .debug_str     0x00000000      0x1a4 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+ .debug_str     0x00000000      0x1aa CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
@@ -1735,7 +1735,7 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .debug_ranges  0x00000000      0x158 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .debug_line    0x00000000      0x6d3 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .debug_str     0x00000000      0x77a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+ .debug_str     0x00000000      0x780 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .comment       0x00000000       0x4a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .debug_frame   0x00000000       0xa0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
@@ -1757,9 +1757,9 @@ Discarded input sections
                 0x00000000       0x3c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .time_critical.spi_read16_blocking
                 0x00000000       0x3e CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .text          0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccA3ILu1.o
- .data          0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccA3ILu1.o
- .bss           0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccA3ILu1.o
+ .text          0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccMA3MvD.o
+ .data          0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccMA3MvD.o
+ .bss           0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccMA3MvD.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -2120,7 +2120,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\ASUS\AppData\Local\Temp\ccA3ILu1.o
+ .boot2         0x10000000      0x100 C:\Users\ASUS\AppData\Local\Temp\ccMA3MvD.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -6626,7 +6626,7 @@ LOAD CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/ti
 LOAD CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-LOAD C:\Users\ASUS\AppData\Local\Temp\ccA3ILu1.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccMA3MvD.o
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -6853,7 +6853,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00001116       0x2c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .ARM.attributes
-                0x00001142       0x22 C:\Users\ASUS\AppData\Local\Temp\ccA3ILu1.o
+                0x00001142       0x22 C:\Users\ASUS\AppData\Local\Temp\ccMA3MvD.o
  .ARM.attributes
                 0x00001164       0x1e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -7631,309 +7631,309 @@ LOAD linker stubs
  .debug_ranges  0x00006f60      0x370 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_ranges  0x000072d0      0x270 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 
-.debug_line     0x00000000    0x3a84f
- .debug_line    0x00000000      0x6a9 CMakeFiles/pico_lorawan_hello_abp.dir/main.c.obj
- .debug_line    0x000006a9     0x10c3 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/lorawan.c.obj
- .debug_line    0x0000176c      0x926 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandlerMsgDisplay.c.obj
- .debug_line    0x00002092      0x515 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/NvmDataMgmt.c.obj
- .debug_line    0x000025a7      0xfc0 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/LmHandler.c.obj
- .debug_line    0x00003567      0xc26 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.c.obj
- .debug_line    0x0000418d      0x77f CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpClockSync.c.obj
- .debug_line    0x0000490c      0xba9 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.c.obj
- .debug_line    0x000054b5      0x80d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpFragmentation.c.obj
- .debug_line    0x00005cc2      0x886 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
- .debug_line    0x00006548      0x41b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/boards/mcu/utilities.c.obj
- .debug_line    0x00006963      0xc3b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/Region.c.obj
- .debug_line    0x0000759e     0x100c CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAS923.c.obj
- .debug_line    0x000085aa     0x1166 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAU915.c.obj
- .debug_line    0x00009710      0x38e CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionBaseUS.c.obj
- .debug_line    0x00009a9e     0x1186 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470.c.obj
- .debug_line    0x0000ac24      0x4c8 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A20.c.obj
- .debug_line    0x0000b0ec      0x41d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A26.c.obj
- .debug_line    0x0000b509      0x3f3 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B20.c.obj
- .debug_line    0x0000b8fc      0x302 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B26.c.obj
- .debug_line    0x0000bbfe      0xf89 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN779.c.obj
- .debug_line    0x0000cb87      0xded CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCommon.c.obj
- .debug_line    0x0000d974      0xf89 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU433.c.obj
- .debug_line    0x0000e8fd     0x100d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU868.c.obj
- .debug_line    0x0000f90a      0xfd5 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionIN865.c.obj
- .debug_line    0x000108df     0x1000 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionKR920.c.obj
- .debug_line    0x000118df      0xf7e CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionRU864.c.obj
- .debug_line    0x0001285d     0x1141 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionUS915.c.obj
- .debug_line    0x0001399e     0x44ba CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMac.c.obj
- .debug_line    0x00017e58      0x331 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacAdr.c.obj
- .debug_line    0x00018189      0x555 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacClassB.c.obj
- .debug_line    0x000186de      0x7ed CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCommands.c.obj
- .debug_line    0x00018ecb      0x672 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacConfirmQueue.c.obj
- .debug_line    0x0001953d      0xf25 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCrypto.c.obj
- .debug_line    0x0001a462      0x406 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacParser.c.obj
- .debug_line    0x0001a868      0x4cf CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacSerializer.c.obj
- .debug_line    0x0001ad37      0x870 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/aes.c.obj
- .debug_line    0x0001b5a7      0x491 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/cmac.c.obj
- .debug_line    0x0001ba38      0x182 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se-hal.c.obj
- .debug_line    0x0001bbba      0x74b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se.c.obj
- .debug_line    0x0001c305      0xebb CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/sx126x.c.obj
- .debug_line    0x0001d1c0      0xed8 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/radio.c.obj
- .debug_line    0x0001e098      0x196 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/delay.c.obj
- .debug_line    0x0001e22e      0x223 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/gpio.c.obj
- .debug_line    0x0001e451      0x2b4 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/nvmm.c.obj
- .debug_line    0x0001e705      0x6e3 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/systime.c.obj
- .debug_line    0x0001ede8      0x6fd CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/timer.c.obj
- .debug_line    0x0001f4e5      0x2e1 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/board.c.obj
- .debug_line    0x0001f7c6      0x177 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/delay-board.c.obj
- .debug_line    0x0001f93d      0x135 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/eeprom-board.c.obj
- .debug_line    0x0001fa72      0x4b1 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/gpio-board.c.obj
- .debug_line    0x0001ff23      0x5f6 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/rtc-board.c.obj
- .debug_line    0x00020519      0x43c CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/spi-board.c.obj
- .debug_line    0x00020955      0x6ac CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/sx126x-board.c.obj
- .debug_line    0x00021001      0xc9a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00021c9b      0x276 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00021f11      0x46b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x0002237c      0x467 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x000227e3     0x1054 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00023837      0x21e CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00023a55     0x10b3 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00024b08      0x2a9 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x00024db1     0x1bb0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00026961      0xc17 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00027578      0x8a0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00027e18      0x9bc CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x000287d4      0x54f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00028d23      0x403 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00029126      0x2a7 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x000293cd      0xabe CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00029e8b     0x121c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0002b0a7      0x14b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0002b1f2      0x22b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0002b41d      0x2d4 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0002b6f1      0x429 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0002bb1a      0x344 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0002be5e     0x2c67 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_line    0x0002eac5      0x6a1 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0002f166       0x9b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0002f201      0x3df CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0002f5e0      0x336 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0002f916      0x1cb CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0002fae1      0x234 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_line    0x0002fd15       0xc5 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0002fdda       0xd3 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0002fead      0x1b9 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x00030066      0xe81 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x00030ee7      0x451 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x00031338      0xda1 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x000320d9      0x2db CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x000323b4      0x390 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x00032744      0x7cb CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x00032f0f      0xe81 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x00033d90      0xa1f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x000347af     0x1fe8 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x00036797      0x47f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x00036c16      0xe06 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00037a1c      0xbbb CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x000385d7     0x1531 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x00039b08      0xd47 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.debug_line     0x00000000    0x3acb1
+ .debug_line    0x00000000      0x6bb CMakeFiles/pico_lorawan_hello_abp.dir/main.c.obj
+ .debug_line    0x000006bb     0x10ff CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/lorawan.c.obj
+ .debug_line    0x000017ba      0x94a CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandlerMsgDisplay.c.obj
+ .debug_line    0x00002104      0x533 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/NvmDataMgmt.c.obj
+ .debug_line    0x00002637      0xff0 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/LmHandler.c.obj
+ .debug_line    0x00003627      0xc32 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.c.obj
+ .debug_line    0x00004259      0x7a3 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpClockSync.c.obj
+ .debug_line    0x000049fc      0xbcd CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.c.obj
+ .debug_line    0x000055c9      0x82b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpFragmentation.c.obj
+ .debug_line    0x00005df4      0x8a4 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
+ .debug_line    0x00006698      0x421 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/boards/mcu/utilities.c.obj
+ .debug_line    0x00006ab9      0xc53 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/Region.c.obj
+ .debug_line    0x0000770c     0x102a CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAS923.c.obj
+ .debug_line    0x00008736     0x1184 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAU915.c.obj
+ .debug_line    0x000098ba      0x3a0 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionBaseUS.c.obj
+ .debug_line    0x00009c5a     0x11a4 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470.c.obj
+ .debug_line    0x0000adfe      0x4d4 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A20.c.obj
+ .debug_line    0x0000b2d2      0x429 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A26.c.obj
+ .debug_line    0x0000b6fb      0x3ff CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B20.c.obj
+ .debug_line    0x0000bafa      0x30e CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B26.c.obj
+ .debug_line    0x0000be08      0xfa7 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN779.c.obj
+ .debug_line    0x0000cdaf      0xe0b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCommon.c.obj
+ .debug_line    0x0000dbba      0xfa7 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU433.c.obj
+ .debug_line    0x0000eb61     0x102b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU868.c.obj
+ .debug_line    0x0000fb8c      0xff3 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionIN865.c.obj
+ .debug_line    0x00010b7f     0x101e CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionKR920.c.obj
+ .debug_line    0x00011b9d      0xf9c CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionRU864.c.obj
+ .debug_line    0x00012b39     0x115f CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionUS915.c.obj
+ .debug_line    0x00013c98     0x44d8 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMac.c.obj
+ .debug_line    0x00018170      0x343 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacAdr.c.obj
+ .debug_line    0x000184b3      0x56d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacClassB.c.obj
+ .debug_line    0x00018a20      0x7f9 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCommands.c.obj
+ .debug_line    0x00019219      0x684 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacConfirmQueue.c.obj
+ .debug_line    0x0001989d      0xf31 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCrypto.c.obj
+ .debug_line    0x0001a7ce      0x412 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacParser.c.obj
+ .debug_line    0x0001abe0      0x4db CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacSerializer.c.obj
+ .debug_line    0x0001b0bb      0x876 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/aes.c.obj
+ .debug_line    0x0001b931      0x49d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/cmac.c.obj
+ .debug_line    0x0001bdce      0x18e CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se-hal.c.obj
+ .debug_line    0x0001bf5c      0x75d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se.c.obj
+ .debug_line    0x0001c6b9      0xec7 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/sx126x.c.obj
+ .debug_line    0x0001d580      0xef0 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/radio.c.obj
+ .debug_line    0x0001e470      0x1a2 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/delay.c.obj
+ .debug_line    0x0001e612      0x22f CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/gpio.c.obj
+ .debug_line    0x0001e841      0x2c0 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/nvmm.c.obj
+ .debug_line    0x0001eb01      0x6ef CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/systime.c.obj
+ .debug_line    0x0001f1f0      0x709 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/timer.c.obj
+ .debug_line    0x0001f8f9      0x2e7 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/board.c.obj
+ .debug_line    0x0001fbe0      0x17d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/delay-board.c.obj
+ .debug_line    0x0001fd5d      0x13b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/eeprom-board.c.obj
+ .debug_line    0x0001fe98      0x4bd CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/gpio-board.c.obj
+ .debug_line    0x00020355      0x602 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/rtc-board.c.obj
+ .debug_line    0x00020957      0x448 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/spi-board.c.obj
+ .debug_line    0x00020d9f      0x6c4 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/sx126x-board.c.obj
+ .debug_line    0x00021463      0xc9a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x000220fd      0x276 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x00022373      0x46b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x000227de      0x467 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00022c45     0x1054 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00023c99      0x21e CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00023eb7     0x10b3 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00024f6a      0x2a9 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x00025213     0x1bb0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00026dc3      0xc17 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x000279da      0x8a0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x0002827a      0x9bc CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00028c36      0x54f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00029185      0x403 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00029588      0x2a7 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0002982f      0xabe CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0002a2ed     0x121c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0002b509      0x14b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0002b654      0x22b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0002b87f      0x2d4 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0002bb53      0x429 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0002bf7c      0x344 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0002c2c0     0x2c67 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_line    0x0002ef27      0x6a1 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0002f5c8       0x9b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0002f663      0x3df CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0002fa42      0x336 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0002fd78      0x1cb CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0002ff43      0x234 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_line    0x00030177       0xc5 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0003023c       0xd3 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0003030f      0x1b9 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x000304c8      0xe81 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x00031349      0x451 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0003179a      0xda1 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x0003253b      0x2db CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x00032816      0x390 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x00032ba6      0x7cb CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x00033371      0xe81 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x000341f2      0xa1f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x00034c11     0x1fe8 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x00036bf9      0x47f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x00037078      0xe06 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00037e7e      0xbbb CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x00038a39     0x1531 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x00039f6a      0xd47 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 
-.debug_str      0x00000000    0x14f16
- .debug_str     0x00000000      0x51e CMakeFiles/pico_lorawan_hello_abp.dir/main.c.obj
-                                0x5eb (size before relaxing)
- .debug_str     0x0000051e     0x2ed9 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/lorawan.c.obj
-                               0x3894 (size before relaxing)
- .debug_str     0x000033f7      0x14a CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandlerMsgDisplay.c.obj
-                               0x26d4 (size before relaxing)
- .debug_str     0x00003541      0x114 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/NvmDataMgmt.c.obj
-                               0x1b6e (size before relaxing)
- .debug_str     0x00003655      0x7db CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/LmHandler.c.obj
-                               0x31ca (size before relaxing)
- .debug_str     0x00003e30      0x38e CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.c.obj
-                                0x5aa (size before relaxing)
- .debug_str     0x000041be      0x33a CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpClockSync.c.obj
-                               0x2936 (size before relaxing)
- .debug_str     0x000044f8      0x56e CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.c.obj
-                               0x2cc4 (size before relaxing)
- .debug_str     0x00004a66      0x5bd CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpFragmentation.c.obj
-                               0x1ac6 (size before relaxing)
- .debug_str     0x00005023      0x5fc CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
-                               0x1b93 (size before relaxing)
- .debug_str     0x0000561f       0xbc CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/boards/mcu/utilities.c.obj
-                                0x2ce (size before relaxing)
- .debug_str     0x000056db     0x22d2 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/Region.c.obj
-                               0x2c61 (size before relaxing)
- .debug_str     0x000079ad      0x5f8 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAS923.c.obj
-                               0x208c (size before relaxing)
- .debug_str     0x00007fa5       0xd9 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAU915.c.obj
-                               0x206a (size before relaxing)
- .debug_str     0x0000807e      0x151 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionBaseUS.c.obj
-                                0x6a3 (size before relaxing)
- .debug_str     0x000081cf      0x13b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470.c.obj
-                               0x2151 (size before relaxing)
- .debug_str     0x0000830a      0x1d7 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A20.c.obj
-                                0x4a2 (size before relaxing)
- .debug_str     0x000084e1      0x15f CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A26.c.obj
-                                0x48e (size before relaxing)
- .debug_str     0x00008640      0x179 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B20.c.obj
-                                0x4fc (size before relaxing)
- .debug_str     0x000087b9      0x15f CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B26.c.obj
-                                0x4ce (size before relaxing)
- .debug_str     0x00008918       0x55 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN779.c.obj
-                               0x2010 (size before relaxing)
- .debug_str     0x0000896d      0x580 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCommon.c.obj
-                               0x144e (size before relaxing)
- .debug_str     0x00008eed       0x55 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU433.c.obj
-                               0x2010 (size before relaxing)
- .debug_str     0x00008f42       0x55 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU868.c.obj
-                               0x2015 (size before relaxing)
- .debug_str     0x00008f97       0x55 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionIN865.c.obj
-                               0x202a (size before relaxing)
- .debug_str     0x00008fec       0x97 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionKR920.c.obj
-                               0x2042 (size before relaxing)
- .debug_str     0x00009083       0x55 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionRU864.c.obj
-                               0x2010 (size before relaxing)
- .debug_str     0x000090d8       0x63 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionUS915.c.obj
-                               0x2079 (size before relaxing)
- .debug_str     0x0000913b     0x2245 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMac.c.obj
-                               0x5b29 (size before relaxing)
- .debug_str     0x0000b380       0x70 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacAdr.c.obj
-                                0xb10 (size before relaxing)
- .debug_str     0x0000b3f0       0xfb CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacClassB.c.obj
-                               0x2849 (size before relaxing)
- .debug_str     0x0000b4eb      0x218 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCommands.c.obj
-                                0x8ee (size before relaxing)
- .debug_str     0x0000b703      0x1fd CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacConfirmQueue.c.obj
-                                0xced (size before relaxing)
- .debug_str     0x0000b900      0x396 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCrypto.c.obj
-                               0x1324 (size before relaxing)
- .debug_str     0x0000bc96       0x6d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacParser.c.obj
-                                0x485 (size before relaxing)
- .debug_str     0x0000bd03       0xa1 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacSerializer.c.obj
-                                0x53a (size before relaxing)
- .debug_str     0x0000bda4      0x127 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/aes.c.obj
-                                0x2c0 (size before relaxing)
- .debug_str     0x0000becb       0xbe CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/cmac.c.obj
-                                0x28f (size before relaxing)
- .debug_str     0x0000bf89       0x73 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se-hal.c.obj
-                                0x1e4 (size before relaxing)
- .debug_str     0x0000bffc      0x11d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se.c.obj
-                                0x866 (size before relaxing)
- .debug_str     0x0000c119      0xe5f CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/sx126x.c.obj
-                               0x1766 (size before relaxing)
- .debug_str     0x0000cf78      0x549 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/radio.c.obj
-                               0x1942 (size before relaxing)
- .debug_str     0x0000d4c1       0x71 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/delay.c.obj
-                                0x1e7 (size before relaxing)
- .debug_str     0x0000d532      0x254 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/gpio.c.obj
-                                0x727 (size before relaxing)
- .debug_str     0x0000d786       0x98 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/nvmm.c.obj
-                                0x298 (size before relaxing)
- .debug_str     0x0000d81e      0x1b7 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/systime.c.obj
-                                0x423 (size before relaxing)
- .debug_str     0x0000d9d5      0x1f9 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/timer.c.obj
-                                0x4af (size before relaxing)
- .debug_str     0x0000dbce      0x100 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/board.c.obj
-                                0x303 (size before relaxing)
- .debug_str     0x0000dcce       0x57 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/delay-board.c.obj
-                                0x1d0 (size before relaxing)
- .debug_str     0x0000dd25       0x48 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/eeprom-board.c.obj
-                                0x1f6 (size before relaxing)
- .debug_str     0x0000dd6d      0x314 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/gpio-board.c.obj
-                                0x9c0 (size before relaxing)
- .debug_str     0x0000e081      0x11f CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/rtc-board.c.obj
-                                0x4e9 (size before relaxing)
- .debug_str     0x0000e1a0      0x238 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/spi-board.c.obj
-                                0x7bd (size before relaxing)
- .debug_str     0x0000e3d8       0xac CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/sx126x-board.c.obj
-                               0x15b5 (size before relaxing)
- .debug_str     0x0000e484      0x4a7 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                                0x9b5 (size before relaxing)
- .debug_str     0x0000e92b       0x85 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                                0x23d (size before relaxing)
- .debug_str     0x0000e9b0      0x189 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                                0x381 (size before relaxing)
- .debug_str     0x0000eb39       0xf0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                                0x368 (size before relaxing)
- .debug_str     0x0000ec29      0x3be CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                                0x7e6 (size before relaxing)
- .debug_str     0x0000efe7       0x60 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                                0x21e (size before relaxing)
- .debug_str     0x0000f047      0x183 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                                0x610 (size before relaxing)
- .debug_str     0x0000f1ca       0xcf CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                                0x2de (size before relaxing)
- .debug_str     0x0000f299      0x673 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                                0xc72 (size before relaxing)
- .debug_str     0x0000f90c      0x13f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                                0x73a (size before relaxing)
- .debug_str     0x0000fa4b       0xd8 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                                0x407 (size before relaxing)
- .debug_str     0x0000fb23      0x2e6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                                0x6ae (size before relaxing)
- .debug_str     0x0000fe09       0xc9 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                                0x2f8 (size before relaxing)
- .debug_str     0x0000fed2      0x125 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                                0x33f (size before relaxing)
- .debug_str     0x0000fff7       0x6f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                                0x23c (size before relaxing)
- .debug_str     0x00010066      0x2b6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.debug_str      0x00000000    0x15060
+ .debug_str     0x00000000      0x52a CMakeFiles/pico_lorawan_hello_abp.dir/main.c.obj
+                                0x5f7 (size before relaxing)
+ .debug_str     0x0000052a     0x2edf CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/lorawan.c.obj
+                               0x38a0 (size before relaxing)
+ .debug_str     0x00003409      0x150 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandlerMsgDisplay.c.obj
+                               0x26e0 (size before relaxing)
+ .debug_str     0x00003559      0x11a CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/NvmDataMgmt.c.obj
+                               0x1b7a (size before relaxing)
+ .debug_str     0x00003673      0x7e1 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/LmHandler.c.obj
+                               0x31d6 (size before relaxing)
+ .debug_str     0x00003e54      0x394 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/FragDecoder.c.obj
+                                0x5b6 (size before relaxing)
+ .debug_str     0x000041e8      0x340 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpClockSync.c.obj
+                               0x2942 (size before relaxing)
+ .debug_str     0x00004528      0x574 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpCompliance.c.obj
+                               0x2cd0 (size before relaxing)
+ .debug_str     0x00004a9c      0x5c3 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpFragmentation.c.obj
+                               0x1ad2 (size before relaxing)
+ .debug_str     0x0000505f      0x602 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/apps/LoRaMac/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
+                               0x1b9f (size before relaxing)
+ .debug_str     0x00005661       0xc2 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/boards/mcu/utilities.c.obj
+                                0x2da (size before relaxing)
+ .debug_str     0x00005723     0x22d8 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/Region.c.obj
+                               0x2c6d (size before relaxing)
+ .debug_str     0x000079fb      0x5fe CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAS923.c.obj
+                               0x2098 (size before relaxing)
+ .debug_str     0x00007ff9       0xdf CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionAU915.c.obj
+                               0x2076 (size before relaxing)
+ .debug_str     0x000080d8      0x157 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionBaseUS.c.obj
+                                0x6af (size before relaxing)
+ .debug_str     0x0000822f      0x141 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470.c.obj
+                               0x215d (size before relaxing)
+ .debug_str     0x00008370      0x1dd CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A20.c.obj
+                                0x4ae (size before relaxing)
+ .debug_str     0x0000854d      0x165 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470A26.c.obj
+                                0x49a (size before relaxing)
+ .debug_str     0x000086b2      0x17f CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B20.c.obj
+                                0x508 (size before relaxing)
+ .debug_str     0x00008831      0x165 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN470B26.c.obj
+                                0x4da (size before relaxing)
+ .debug_str     0x00008996       0x5b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCN779.c.obj
+                               0x201c (size before relaxing)
+ .debug_str     0x000089f1      0x586 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionCommon.c.obj
+                               0x145a (size before relaxing)
+ .debug_str     0x00008f77       0x5b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU433.c.obj
+                               0x201c (size before relaxing)
+ .debug_str     0x00008fd2       0x5b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionEU868.c.obj
+                               0x2021 (size before relaxing)
+ .debug_str     0x0000902d       0x5b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionIN865.c.obj
+                               0x2036 (size before relaxing)
+ .debug_str     0x00009088       0x9d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionKR920.c.obj
+                               0x204e (size before relaxing)
+ .debug_str     0x00009125       0x5b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionRU864.c.obj
+                               0x201c (size before relaxing)
+ .debug_str     0x00009180       0x69 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/region/RegionUS915.c.obj
+                               0x2085 (size before relaxing)
+ .debug_str     0x000091e9     0x224b CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMac.c.obj
+                               0x5b35 (size before relaxing)
+ .debug_str     0x0000b434       0x76 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacAdr.c.obj
+                                0xb1c (size before relaxing)
+ .debug_str     0x0000b4aa      0x101 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacClassB.c.obj
+                               0x2855 (size before relaxing)
+ .debug_str     0x0000b5ab      0x21e CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCommands.c.obj
+                                0x8fa (size before relaxing)
+ .debug_str     0x0000b7c9      0x203 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacConfirmQueue.c.obj
+                                0xcf9 (size before relaxing)
+ .debug_str     0x0000b9cc      0x39c CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacCrypto.c.obj
+                               0x1330 (size before relaxing)
+ .debug_str     0x0000bd68       0x73 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacParser.c.obj
+                                0x491 (size before relaxing)
+ .debug_str     0x0000bddb       0xa7 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/mac/LoRaMacSerializer.c.obj
+                                0x546 (size before relaxing)
+ .debug_str     0x0000be82      0x12d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/aes.c.obj
+                                0x2cc (size before relaxing)
+ .debug_str     0x0000bfaf       0xc4 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/cmac.c.obj
+                                0x29b (size before relaxing)
+ .debug_str     0x0000c073       0x79 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se-hal.c.obj
+                                0x1f0 (size before relaxing)
+ .debug_str     0x0000c0ec      0x123 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/soft-se.c.obj
+                                0x872 (size before relaxing)
+ .debug_str     0x0000c20f      0xe65 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/sx126x.c.obj
+                               0x1772 (size before relaxing)
+ .debug_str     0x0000d074      0x54f CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/radio/sx126x/radio.c.obj
+                               0x194e (size before relaxing)
+ .debug_str     0x0000d5c3       0x77 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/delay.c.obj
+                                0x1f3 (size before relaxing)
+ .debug_str     0x0000d63a      0x25a CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/gpio.c.obj
+                                0x733 (size before relaxing)
+ .debug_str     0x0000d894       0x9e CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/nvmm.c.obj
+                                0x2a4 (size before relaxing)
+ .debug_str     0x0000d932      0x1bd CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/systime.c.obj
+                                0x42f (size before relaxing)
+ .debug_str     0x0000daef      0x1ff CMakeFiles/pico_lorawan_hello_abp.dir/__/__/lib/LoRaMac-node/src/system/timer.c.obj
+                                0x4bb (size before relaxing)
+ .debug_str     0x0000dcee      0x106 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/board.c.obj
+                                0x30f (size before relaxing)
+ .debug_str     0x0000ddf4       0x5d CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/delay-board.c.obj
+                                0x1dc (size before relaxing)
+ .debug_str     0x0000de51       0x4e CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/eeprom-board.c.obj
+                                0x202 (size before relaxing)
+ .debug_str     0x0000de9f      0x31a CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/gpio-board.c.obj
+                                0x9cc (size before relaxing)
+ .debug_str     0x0000e1b9      0x125 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/rtc-board.c.obj
+                                0x4f5 (size before relaxing)
+ .debug_str     0x0000e2de      0x23e CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/spi-board.c.obj
+                                0x7c9 (size before relaxing)
+ .debug_str     0x0000e51c       0xb2 CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/sx126x-board.c.obj
+                               0x15c1 (size before relaxing)
+ .debug_str     0x0000e5ce      0x4a7 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                                0x9bb (size before relaxing)
+ .debug_str     0x0000ea75       0x85 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                                0x243 (size before relaxing)
+ .debug_str     0x0000eafa      0x189 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                                0x387 (size before relaxing)
+ .debug_str     0x0000ec83       0xf0 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                                0x36e (size before relaxing)
+ .debug_str     0x0000ed73      0x3be CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
                                 0x7ec (size before relaxing)
- .debug_str     0x0001031c      0x236 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                                0x49d (size before relaxing)
- .debug_str     0x00010552       0x59 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x0000f131       0x60 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                                0x224 (size before relaxing)
+ .debug_str     0x0000f191      0x183 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                                0x616 (size before relaxing)
+ .debug_str     0x0000f314       0xcf CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                                0x2e4 (size before relaxing)
+ .debug_str     0x0000f3e3      0x673 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                                0xc78 (size before relaxing)
+ .debug_str     0x0000fa56      0x13f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                                0x740 (size before relaxing)
+ .debug_str     0x0000fb95       0xd8 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                                0x40d (size before relaxing)
+ .debug_str     0x0000fc6d      0x2e6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                                0x6b4 (size before relaxing)
+ .debug_str     0x0000ff53       0xc9 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                                0x2fe (size before relaxing)
+ .debug_str     0x0001001c      0x125 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                                0x345 (size before relaxing)
+ .debug_str     0x00010141       0x6f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                                0x242 (size before relaxing)
+ .debug_str     0x000101b0      0x2b6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                                0x7f2 (size before relaxing)
+ .debug_str     0x00010466      0x236 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                                0x4a3 (size before relaxing)
+ .debug_str     0x0001069c       0x59 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                                 0x9f (size before relaxing)
+ .debug_str     0x000106f5       0xc8 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                                0x27d (size before relaxing)
+ .debug_str     0x000107bd       0x45 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
                                  0x99 (size before relaxing)
- .debug_str     0x000105ab       0xc8 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                                0x277 (size before relaxing)
- .debug_str     0x00010673       0x45 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                                 0x93 (size before relaxing)
- .debug_str     0x000106b8       0x49 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                                 0x97 (size before relaxing)
- .debug_str     0x00010701       0xa1 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                                0x2b6 (size before relaxing)
- .debug_str     0x000107a2      0x2cc CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-                                0x529 (size before relaxing)
- .debug_str     0x00010a6e       0x4f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_str     0x00010802       0x49 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
                                  0x9d (size before relaxing)
- .debug_str     0x00010abd       0x54 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                                 0xa2 (size before relaxing)
- .debug_str     0x00010b11       0x47 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                                 0x95 (size before relaxing)
- .debug_str     0x00010b58       0x85 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                                0x2d2 (size before relaxing)
- .debug_str     0x00010bdd       0x4d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_str     0x0001084b       0xa1 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                                0x2bc (size before relaxing)
+ .debug_str     0x000108ec      0x2cc CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                                0x52f (size before relaxing)
+ .debug_str     0x00010bb8       0x4f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                                 0xa3 (size before relaxing)
+ .debug_str     0x00010c07       0x54 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                                 0xa8 (size before relaxing)
+ .debug_str     0x00010c5b       0x47 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
                                  0x9b (size before relaxing)
- .debug_str     0x00010c2a       0xc2 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-                                0x24b (size before relaxing)
- .debug_str     0x00010cec       0x4b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                                 0x99 (size before relaxing)
- .debug_str     0x00010d37       0x48 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                                 0x96 (size before relaxing)
- .debug_str     0x00010d7f      0x248 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-                                0x3ff (size before relaxing)
- .debug_str     0x00010fc7      0x473 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                                0x9b3 (size before relaxing)
- .debug_str     0x0001143a      0x53a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                                0x783 (size before relaxing)
- .debug_str     0x00011974      0x358 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                                0xafa (size before relaxing)
- .debug_str     0x00011ccc      0xae6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                                0xe6e (size before relaxing)
- .debug_str     0x000127b2       0x94 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                                0x290 (size before relaxing)
- .debug_str     0x00012846      0x30c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                                0x5ff (size before relaxing)
- .debug_str     0x00012b52      0xa1f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                                0xecd (size before relaxing)
- .debug_str     0x00013571      0x149 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                                0x82e (size before relaxing)
- .debug_str     0x000136ba      0x938 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                               0x16f4 (size before relaxing)
- .debug_str     0x00013ff2       0xe6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                                0x538 (size before relaxing)
- .debug_str     0x000140d8      0x720 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                               0x1525 (size before relaxing)
- .debug_str     0x000147f8      0x21d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                                0xade (size before relaxing)
- .debug_str     0x00014a15      0x3b3 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                                0x760 (size before relaxing)
- .debug_str     0x00014dc8      0x14e CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-                                0x5ae (size before relaxing)
+ .debug_str     0x00010ca2       0x85 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                                0x2d8 (size before relaxing)
+ .debug_str     0x00010d27       0x4d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                                 0xa1 (size before relaxing)
+ .debug_str     0x00010d74       0xc2 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                                0x251 (size before relaxing)
+ .debug_str     0x00010e36       0x4b CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                                 0x9f (size before relaxing)
+ .debug_str     0x00010e81       0x48 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                                 0x9c (size before relaxing)
+ .debug_str     0x00010ec9      0x248 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                                0x405 (size before relaxing)
+ .debug_str     0x00011111      0x473 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                                0x9b9 (size before relaxing)
+ .debug_str     0x00011584      0x53a CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                                0x789 (size before relaxing)
+ .debug_str     0x00011abe      0x358 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                                0xb00 (size before relaxing)
+ .debug_str     0x00011e16      0xae6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                                0xe74 (size before relaxing)
+ .debug_str     0x000128fc       0x94 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                                0x296 (size before relaxing)
+ .debug_str     0x00012990      0x30c CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                                0x605 (size before relaxing)
+ .debug_str     0x00012c9c      0xa1f CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                                0xed3 (size before relaxing)
+ .debug_str     0x000136bb      0x149 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                                0x834 (size before relaxing)
+ .debug_str     0x00013804      0x938 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                               0x16fa (size before relaxing)
+ .debug_str     0x0001413c       0xe6 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                                0x53e (size before relaxing)
+ .debug_str     0x00014222      0x720 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                               0x152b (size before relaxing)
+ .debug_str     0x00014942      0x21d CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                                0xae4 (size before relaxing)
+ .debug_str     0x00014b5f      0x3b3 CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                                0x766 (size before relaxing)
+ .debug_str     0x00014f12      0x14e CMakeFiles/pico_lorawan_hello_abp.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+                                0x5b4 (size before relaxing)
 
 .debug_frame    0x00000000     0x920c
  .debug_frame   0x00000000       0x40 CMakeFiles/pico_lorawan_hello_abp.dir/main.c.obj

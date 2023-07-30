@@ -1,5 +1,5 @@
 examples/send_data_gps/CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/boards/rp2040/sx126x-board.c.obj: \
- C:\Users\ASUS\Desktop\Boton\University\src\boards\rp2040\sx126x-board.c \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\src\boards\rp2040\sx126x-board.c \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\stdlib.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\ieeefp.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\_ansi.h \
@@ -17,22 +17,22 @@ examples/send_data_gps/CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/src/board
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\cdefs.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\stdlib.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\alloca.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\boards/utilities.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\boards/utilities.h \
  c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\stdint.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
- C:\Users\ASUS\Desktop\Boton\University\src\include/pico/board-config.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\boards/board.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\boards/utilities.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\system/delay.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\radio/radio.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\src\include/pico/board-config.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\boards/board.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\boards/utilities.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\system/delay.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\radio/radio.h \
  c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\boards/sx126x-board.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\radio/sx126x/sx126x.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\boards/sx126x-board.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\radio/sx126x/sx126x.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\math.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\system/gpio.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\boards/pinName-board.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\boards/pinName-ioe.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\system/spi.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\system/gpio.h
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\system/gpio.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\boards/pinName-board.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\boards/pinName-ioe.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\system/spi.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\system/gpio.h

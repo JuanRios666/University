@@ -54,21 +54,13 @@ const struct lorawan_sx12xx_settings sx12xx_settings = {
 };
 
 // Configuraciones del modo ABP
-const struct lorawan_abp_settings abp_settings = {
+struct lorawan_abp_settings abp_settings = {
     .device_address = LORAWAN_DEV_ADDR,
     .network_session_key = LORAWAN_NETWORK_SESSION_KEY,
     .app_session_key = LORAWAN_APP_SESSION_KEY,
     .channel_mask = LORAWAN_CHANNEL_MASK
 };
 
-// Variables para recibir datos por LoRa
-int receive_length = 0;
-uint8_t receive_buffer[242];
-uint8_t receive_port = 0;
-
-// Funciones usadas en el main
-void gpio_int_handler(uint gpio, uint32_t events);
-void send_gps(float *latitude, float *longitude, uint32_t *last_message_time, uint8_t *count);
 
 void wait_for_response(){
     char message[256];
@@ -99,18 +91,38 @@ void calculate_Checksum(uint8_t* data, uint8_t endPos){
     data[endPos+1] = CK_B;
 }
 
+
+// Variables para recibir datos por LoRa
+int receive_length = 0;
+uint8_t receive_buffer[242];
+uint8_t receive_port = 0;
+char dev_eui[17];
+
+// Funciones usadas en el main
+void gpio_int_handler(uint gpio, uint32_t events);
+void send_gps(float *latitude, float *longitude, uint32_t *last_message_time, uint8_t *count);
+
+
 int main( void )
 {
     const char CONFIGURATIONS[] = "PMTK103"; 
     const char CONFIGURATIONS2[] = "PMTK314,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0";
-    uint8_t config[10] = {0xB5, 0x62, 0x06, 0x11, 0x02, 0x00, 0x00, 0x01, 0x00, 0x00}; //RXM
+    /*uint8_t config[10] = {0xB5, 0x62, 0x06, 0x11, 0x02, 0x00, 0x00, 0x01, 0x00, 0x00}; //RXM
     uint8_t config2[16] = {0xB5, 0x62, 0x02, 0x41, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00};//PMG
     calculate_Checksum(config, sizeof(config)-2);
-    calculate_Checksum(config2, sizeof(config2)-2);
+    calculate_Checksum(config2, sizeof(config2)-2);*/
 
-
+    // ---------------------- initialize the board ---------------------------
+    lorawan_default_dev_eui(dev_eui);
+    abp_settings.device_address = dev_eui;
     stdio_init_all();
+    sleep_ms(4000);
+    printf("DEV_EUI: %s\n", abp_settings.device_address);
+    printf("APP_EUI: %s\n", abp_settings.app_session_key);
+    printf("APP_KEY: %s\n", abp_settings.network_session_key);
+
     printf("Pico LoRaWAN - Button Panic and GPS\n\n");
+    
     init_uart1();
     //uart_write_blocking(UART_ID, config2, sizeof(config2));
     //wait_for_response();
@@ -128,9 +140,7 @@ int main( void )
         printf("success!\n");
     }
 
-    //----------------------------------------------------
-
-    //Interrupcion del Botón de Pánico
+    //----------Interrupcion del Botón de Pánico-----------
     gpio_init(INT_BUTTON);                      //inicio el boton de la interrupción
     gpio_set_dir(INT_BUTTON, GPIO_IN);          //seteo el boton como entrada
     gpio_pull_up(INT_BUTTON);                   //activo la resistencia de pull up
@@ -138,9 +148,9 @@ int main( void )
     irq_set_enabled(INT_BUTTON, true);
     irq_set_priority(INT_BUTTON, 0);
 
-
     gpio_init(PICO_DEFAULT_LED_PIN);
     gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
+
 
     uint8_t counter = 0;
     uint32_t last_message_time = 0;
@@ -164,8 +174,8 @@ int main( void )
         .month = -1,
         .day   = -1,
         .dotw  = -1,
-        .hour  = 19,
-        .min   = 25,
+        .hour  = 12,
+        .min   = 00,
         .sec   = 00
     };
 
@@ -179,10 +189,9 @@ int main( void )
             //send_gps(&latitude, &longitude, &last_message_time, &counter);
             if(!is_correct(rx_buffer, length)){
                 new_data_available = false;
-                continue;
             }
             
-            if(new_data_available){         //ha llegado toda una sentencia GPS
+            if(new_data_available){        //ha llegado toda una sentencia GPS
                 if (strncmp(rx_buffer, "$GNRMC", strlen("$GNRMC")) == 0 || strncmp(rx_buffer, "$GNGGA", strlen("$GNGGA")) == 0){
                     //printf("%s\n", rx_buffer);
                     float latitud = 0, longitud = 0;

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ASUS\Desktop\Boton\University
+CMAKE_SOURCE_DIR = C:\Users\ASUS\Desktop\Boton\University\Boton
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ASUS\Desktop\Boton\University\build
+CMAKE_BINARY_DIR = C:\Users\ASUS\Desktop\Boton\University\Boton\build
 
 # Utility rule file for pico_audio_i2s_audio_i2s_pio_h.
 
@@ -68,8 +68,8 @@ include pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audi
 pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h: pico_extras/src/rp2_common/pico_audio_i2s/audio_i2s.pio.h
 
 pico_extras/src/rp2_common/pico_audio_i2s/audio_i2s.pio.h: C:/RPPicoSDK/sdk/pico/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\ASUS\Desktop\Boton\University\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating audio_i2s.pio.h"
-	cd /d C:\Users\ASUS\Desktop\Boton\University\build\pico_extras\src\rp2_common\pico_audio_i2s && ..\..\..\..\pioasm\pioasm.exe -o c-sdk C:/RPPicoSDK/sdk/pico/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.pio C:/Users/ASUS/Desktop/Boton/University/build/pico_extras/src/rp2_common/pico_audio_i2s/audio_i2s.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\ASUS\Desktop\Boton\University\Boton\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating audio_i2s.pio.h"
+	cd /d C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico_extras\src\rp2_common\pico_audio_i2s && ..\..\..\..\pioasm\pioasm.exe -o c-sdk C:/RPPicoSDK/sdk/pico/pico-extras/src/rp2_common/pico_audio_i2s/audio_i2s.pio C:/Users/ASUS/Desktop/Boton/University/Boton/build/pico_extras/src/rp2_common/pico_audio_i2s/audio_i2s.pio.h
 
 pico_audio_i2s_audio_i2s_pio_h: pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h
 pico_audio_i2s_audio_i2s_pio_h: pico_extras/src/rp2_common/pico_audio_i2s/audio_i2s.pio.h
@@ -81,10 +81,10 @@ pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pi
 .PHONY : pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/build
 
 pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/clean:
-	cd /d C:\Users\ASUS\Desktop\Boton\University\build\pico_extras\src\rp2_common\pico_audio_i2s && $(CMAKE_COMMAND) -P CMakeFiles\pico_audio_i2s_audio_i2s_pio_h.dir\cmake_clean.cmake
+	cd /d C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico_extras\src\rp2_common\pico_audio_i2s && $(CMAKE_COMMAND) -P CMakeFiles\pico_audio_i2s_audio_i2s_pio_h.dir\cmake_clean.cmake
 .PHONY : pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/clean
 
 pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ASUS\Desktop\Boton\University C:\RPPicoSDK\sdk\pico\pico-extras\src\rp2_common\pico_audio_i2s C:\Users\ASUS\Desktop\Boton\University\build C:\Users\ASUS\Desktop\Boton\University\build\pico_extras\src\rp2_common\pico_audio_i2s C:\Users\ASUS\Desktop\Boton\University\build\pico_extras\src\rp2_common\pico_audio_i2s\CMakeFiles\pico_audio_i2s_audio_i2s_pio_h.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ASUS\Desktop\Boton\University\Boton C:\RPPicoSDK\sdk\pico\pico-extras\src\rp2_common\pico_audio_i2s C:\Users\ASUS\Desktop\Boton\University\Boton\build C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico_extras\src\rp2_common\pico_audio_i2s C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico_extras\src\rp2_common\pico_audio_i2s\CMakeFiles\pico_audio_i2s_audio_i2s_pio_h.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : pico_extras/src/rp2_common/pico_audio_i2s/CMakeFiles/pico_audio_i2s_audio_i2s_pio_h.dir/depend
 

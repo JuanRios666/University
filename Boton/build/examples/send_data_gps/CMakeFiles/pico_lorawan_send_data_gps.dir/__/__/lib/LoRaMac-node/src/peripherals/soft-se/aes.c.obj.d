@@ -1,5 +1,5 @@
 examples/send_data_gps/CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaMac-node/src/peripherals/soft-se/aes.c.obj: \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\peripherals\soft-se\aes.c \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\peripherals\soft-se\aes.c \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\stdlib.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\ieeefp.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\_ansi.h \
@@ -21,4 +21,4 @@ examples/send_data_gps/CMakeFiles/pico_lorawan_send_data_gps.dir/__/__/lib/LoRaM
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\stdint.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\peripherals\soft-se\aes.h
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\peripherals\soft-se\aes.h

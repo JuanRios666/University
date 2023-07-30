@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/ASUS/Desktop/Boton/University/build/pico_extras/src/common/cmake_install.cmake")
-  include("C:/Users/ASUS/Desktop/Boton/University/build/pico_extras/src/rp2_common/cmake_install.cmake")
+  include("C:/Users/ASUS/Desktop/Boton/University/Boton/build/pico_extras/src/common/cmake_install.cmake")
+  include("C:/Users/ASUS/Desktop/Boton/University/Boton/build/pico_extras/src/rp2_common/cmake_install.cmake")
 
 endif()
 

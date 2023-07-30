@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ASUS\Desktop\Boton\University
+CMAKE_SOURCE_DIR = C:\Users\ASUS\Desktop\Boton\University\Boton
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ASUS\Desktop\Boton\University\build
+CMAKE_BINARY_DIR = C:\Users\ASUS\Desktop\Boton\University\Boton\build
 
 # Utility rule file for pico_sd_card_sd_card_pio_h.
 
@@ -68,8 +68,8 @@ include pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_
 pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h: pico_extras/src/rp2_common/pico_sd_card/sd_card.pio.h
 
 pico_extras/src/rp2_common/pico_sd_card/sd_card.pio.h: C:/RPPicoSDK/sdk/pico/pico-extras/src/rp2_common/pico_sd_card/sd_card.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\ASUS\Desktop\Boton\University\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating sd_card.pio.h"
-	cd /d C:\Users\ASUS\Desktop\Boton\University\build\pico_extras\src\rp2_common\pico_sd_card && ..\..\..\..\pioasm\pioasm.exe -o c-sdk C:/RPPicoSDK/sdk/pico/pico-extras/src/rp2_common/pico_sd_card/sd_card.pio C:/Users/ASUS/Desktop/Boton/University/build/pico_extras/src/rp2_common/pico_sd_card/sd_card.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\ASUS\Desktop\Boton\University\Boton\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating sd_card.pio.h"
+	cd /d C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico_extras\src\rp2_common\pico_sd_card && ..\..\..\..\pioasm\pioasm.exe -o c-sdk C:/RPPicoSDK/sdk/pico/pico-extras/src/rp2_common/pico_sd_card/sd_card.pio C:/Users/ASUS/Desktop/Boton/University/Boton/build/pico_extras/src/rp2_common/pico_sd_card/sd_card.pio.h
 
 pico_sd_card_sd_card_pio_h: pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h
 pico_sd_card_sd_card_pio_h: pico_extras/src/rp2_common/pico_sd_card/sd_card.pio.h
@@ -81,10 +81,10 @@ pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.di
 .PHONY : pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/build
 
 pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/clean:
-	cd /d C:\Users\ASUS\Desktop\Boton\University\build\pico_extras\src\rp2_common\pico_sd_card && $(CMAKE_COMMAND) -P CMakeFiles\pico_sd_card_sd_card_pio_h.dir\cmake_clean.cmake
+	cd /d C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico_extras\src\rp2_common\pico_sd_card && $(CMAKE_COMMAND) -P CMakeFiles\pico_sd_card_sd_card_pio_h.dir\cmake_clean.cmake
 .PHONY : pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/clean
 
 pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ASUS\Desktop\Boton\University C:\RPPicoSDK\sdk\pico\pico-extras\src\rp2_common\pico_sd_card C:\Users\ASUS\Desktop\Boton\University\build C:\Users\ASUS\Desktop\Boton\University\build\pico_extras\src\rp2_common\pico_sd_card C:\Users\ASUS\Desktop\Boton\University\build\pico_extras\src\rp2_common\pico_sd_card\CMakeFiles\pico_sd_card_sd_card_pio_h.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ASUS\Desktop\Boton\University\Boton C:\RPPicoSDK\sdk\pico\pico-extras\src\rp2_common\pico_sd_card C:\Users\ASUS\Desktop\Boton\University\Boton\build C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico_extras\src\rp2_common\pico_sd_card C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico_extras\src\rp2_common\pico_sd_card\CMakeFiles\pico_sd_card_sd_card_pio_h.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/depend
 

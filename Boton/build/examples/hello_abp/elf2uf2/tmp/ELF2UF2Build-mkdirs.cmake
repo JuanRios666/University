@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "C:/RPPicoSDK/sdk/pico/pico-sdk/tools/elf2uf2"
-  "C:/Users/ASUS/Desktop/Boton/University/build/elf2uf2"
-  "C:/Users/ASUS/Desktop/Boton/University/build/examples/hello_abp/elf2uf2"
-  "C:/Users/ASUS/Desktop/Boton/University/build/examples/hello_abp/elf2uf2/tmp"
-  "C:/Users/ASUS/Desktop/Boton/University/build/examples/hello_abp/elf2uf2/src/ELF2UF2Build-stamp"
-  "C:/Users/ASUS/Desktop/Boton/University/build/examples/hello_abp/elf2uf2/src"
-  "C:/Users/ASUS/Desktop/Boton/University/build/examples/hello_abp/elf2uf2/src/ELF2UF2Build-stamp"
+  "C:/Users/ASUS/Desktop/Boton/University/Boton/build/elf2uf2"
+  "C:/Users/ASUS/Desktop/Boton/University/Boton/build/examples/hello_abp/elf2uf2"
+  "C:/Users/ASUS/Desktop/Boton/University/Boton/build/examples/hello_abp/elf2uf2/tmp"
+  "C:/Users/ASUS/Desktop/Boton/University/Boton/build/examples/hello_abp/elf2uf2/src/ELF2UF2Build-stamp"
+  "C:/Users/ASUS/Desktop/Boton/University/Boton/build/examples/hello_abp/elf2uf2/src"
+  "C:/Users/ASUS/Desktop/Boton/University/Boton/build/examples/hello_abp/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/ASUS/Desktop/Boton/University/build/examples/hello_abp/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/ASUS/Desktop/Boton/University/Boton/build/examples/hello_abp/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/ASUS/Desktop/Boton/University/build/examples/hello_abp/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/ASUS/Desktop/Boton/University/Boton/build/examples/hello_abp/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()

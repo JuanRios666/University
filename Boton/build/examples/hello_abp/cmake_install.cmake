@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ASUS/Desktop/Boton/University/examples/hello_abp
+# Install script for directory: C:/Users/ASUS/Desktop/Boton/University/Boton/examples/hello_abp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

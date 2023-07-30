@@ -1,5 +1,5 @@
 examples/hello_abp/CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040/spi-board.c.obj: \
- C:\Users\ASUS\Desktop\Boton\University\src\boards\rp2040\spi-board.c \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\src\boards\rp2040\spi-board.c \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\common\pico_stdlib\include/pico/stdlib.h \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\common\pico_base\include/pico.h \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\common\pico_base\include/pico/types.h \
@@ -18,9 +18,9 @@ examples/hello_abp/CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
  c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
- C:\Users\ASUS\Desktop\Boton\University\build\generated\pico_base/pico/version.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\build\generated\pico_base/pico/version.h \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\Users\ASUS\Desktop\Boton\University\build\generated\pico_base/pico/config_autogen.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\build\generated\pico_base/pico/config_autogen.h \
  C:/RPPicoSDK/sdk/pico/pico-sdk/src/boards/include/boards/pico.h \
  C:/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
@@ -54,8 +54,8 @@ examples/hello_abp/CMakeFiles/pico_lorawan_hello_abp.dir/__/__/src/boards/rp2040
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\hardware_spi\include/hardware/spi.h \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/spi.h \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\boards/spi-board.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\system/spi.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\system/gpio.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\boards/pinName-board.h \
- C:\Users\ASUS\Desktop\Boton\University\lib\LoRaMac-node\src\boards/pinName-ioe.h
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\boards/spi-board.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\system/spi.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\system/gpio.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\boards/pinName-board.h \
+ C:\Users\ASUS\Desktop\Boton\University\Boton\lib\LoRaMac-node\src\boards/pinName-ioe.h

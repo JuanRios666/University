@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ASUS/Desktop/Boton/University
+# Install script for directory: C:/Users/ASUS/Desktop/Boton/University/Boton
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/ASUS/Desktop/Boton/University/build/pico_extras/cmake_install.cmake")
-  include("C:/Users/ASUS/Desktop/Boton/University/build/pico-sdk/cmake_install.cmake")
-  include("C:/Users/ASUS/Desktop/Boton/University/build/examples/hello_abp/cmake_install.cmake")
-  include("C:/Users/ASUS/Desktop/Boton/University/build/examples/send_data_gps/cmake_install.cmake")
-  include("C:/Users/ASUS/Desktop/Boton/University/build/__gps/cmake_install.cmake")
+  include("C:/Users/ASUS/Desktop/Boton/University/Boton/build/pico_extras/cmake_install.cmake")
+  include("C:/Users/ASUS/Desktop/Boton/University/Boton/build/pico-sdk/cmake_install.cmake")
+  include("C:/Users/ASUS/Desktop/Boton/University/Boton/build/examples/hello_abp/cmake_install.cmake")
+  include("C:/Users/ASUS/Desktop/Boton/University/Boton/build/examples/send_data_gps/cmake_install.cmake")
+  include("C:/Users/ASUS/Desktop/Boton/University/Boton/build/__gps/cmake_install.cmake")
 
 endif()
 
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/ASUS/Desktop/Boton/University/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/ASUS/Desktop/Boton/University/Boton/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

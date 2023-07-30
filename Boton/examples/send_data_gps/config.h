@@ -10,7 +10,7 @@
 #define LORAWAN_REGION                  LORAMAC_REGION_AU915
 
 // LoRaWAN device address (32-bit)
-#define LORAWAN_DEV_ADDR                "E66118C4"
+#define LORAWAN_DEV_ADDR                "E1010101"
 
 // LoRaWAN Network Session Key (128-bit)
 #define LORAWAN_NETWORK_SESSION_KEY     "CC558C85F6B490AAD9FEA526B79DA864"

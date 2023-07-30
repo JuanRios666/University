@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ASUS\Desktop\Boton\University
+CMAKE_SOURCE_DIR = C:\Users\ASUS\Desktop\Boton\University\Boton
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ASUS\Desktop\Boton\University\build
+CMAKE_BINARY_DIR = C:\Users\ASUS\Desktop\Boton\University\Boton\build
 
 # Utility rule file for pico_scanvideo_scanvideo_pio_h.
 
@@ -68,8 +68,8 @@ include pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvide
 pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h: pico_extras/src/common/pico_scanvideo/scanvideo.pio.h
 
 pico_extras/src/common/pico_scanvideo/scanvideo.pio.h: C:/RPPicoSDK/sdk/pico/pico-extras/src/common/pico_scanvideo/scanvideo.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\ASUS\Desktop\Boton\University\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating scanvideo.pio.h"
-	cd /d C:\Users\ASUS\Desktop\Boton\University\build\pico_extras\src\common\pico_scanvideo && ..\..\..\..\pioasm\pioasm.exe -o c-sdk C:/RPPicoSDK/sdk/pico/pico-extras/src/common/pico_scanvideo/scanvideo.pio C:/Users/ASUS/Desktop/Boton/University/build/pico_extras/src/common/pico_scanvideo/scanvideo.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\ASUS\Desktop\Boton\University\Boton\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating scanvideo.pio.h"
+	cd /d C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico_extras\src\common\pico_scanvideo && ..\..\..\..\pioasm\pioasm.exe -o c-sdk C:/RPPicoSDK/sdk/pico/pico-extras/src/common/pico_scanvideo/scanvideo.pio C:/Users/ASUS/Desktop/Boton/University/Boton/build/pico_extras/src/common/pico_scanvideo/scanvideo.pio.h
 
 pico_scanvideo_scanvideo_pio_h: pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h
 pico_scanvideo_scanvideo_pio_h: pico_extras/src/common/pico_scanvideo/scanvideo.pio.h
@@ -81,10 +81,10 @@ pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.
 .PHONY : pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/build
 
 pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/clean:
-	cd /d C:\Users\ASUS\Desktop\Boton\University\build\pico_extras\src\common\pico_scanvideo && $(CMAKE_COMMAND) -P CMakeFiles\pico_scanvideo_scanvideo_pio_h.dir\cmake_clean.cmake
+	cd /d C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico_extras\src\common\pico_scanvideo && $(CMAKE_COMMAND) -P CMakeFiles\pico_scanvideo_scanvideo_pio_h.dir\cmake_clean.cmake
 .PHONY : pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/clean
 
 pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ASUS\Desktop\Boton\University C:\RPPicoSDK\sdk\pico\pico-extras\src\common\pico_scanvideo C:\Users\ASUS\Desktop\Boton\University\build C:\Users\ASUS\Desktop\Boton\University\build\pico_extras\src\common\pico_scanvideo C:\Users\ASUS\Desktop\Boton\University\build\pico_extras\src\common\pico_scanvideo\CMakeFiles\pico_scanvideo_scanvideo_pio_h.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ASUS\Desktop\Boton\University\Boton C:\RPPicoSDK\sdk\pico\pico-extras\src\common\pico_scanvideo C:\Users\ASUS\Desktop\Boton\University\Boton\build C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico_extras\src\common\pico_scanvideo C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico_extras\src\common\pico_scanvideo\CMakeFiles\pico_scanvideo_scanvideo_pio_h.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : pico_extras/src/common/pico_scanvideo/CMakeFiles/pico_scanvideo_scanvideo_pio_h.dir/depend
 

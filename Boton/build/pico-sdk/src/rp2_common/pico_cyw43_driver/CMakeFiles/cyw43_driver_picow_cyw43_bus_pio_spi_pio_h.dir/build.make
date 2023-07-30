@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ASUS\Desktop\Boton\University
+CMAKE_SOURCE_DIR = C:\Users\ASUS\Desktop\Boton\University\Boton
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ASUS\Desktop\Boton\University\build
+CMAKE_BINARY_DIR = C:\Users\ASUS\Desktop\Boton\University\Boton\build
 
 # Utility rule file for cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.
 
@@ -68,8 +68,8 @@ include pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h: C:/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\ASUS\Desktop\Boton\University\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
-	cd /d C:\Users\ASUS\Desktop\Boton\University\build\pico-sdk\src\rp2_common\pico_cyw43_driver && ..\..\..\..\pioasm\pioasm.exe -o c-sdk C:/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio C:/Users/ASUS/Desktop/Boton/University/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\ASUS\Desktop\Boton\University\Boton\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
+	cd /d C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico-sdk\src\rp2_common\pico_cyw43_driver && ..\..\..\..\pioasm\pioasm.exe -o c-sdk C:/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio C:/Users/ASUS/Desktop/Boton/University/Boton/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
@@ -81,10 +81,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bu
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean:
-	cd /d C:\Users\ASUS\Desktop\Boton\University\build\pico-sdk\src\rp2_common\pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\cmake_clean.cmake
+	cd /d C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico-sdk\src\rp2_common\pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ASUS\Desktop\Boton\University C:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver C:\Users\ASUS\Desktop\Boton\University\build C:\Users\ASUS\Desktop\Boton\University\build\pico-sdk\src\rp2_common\pico_cyw43_driver C:\Users\ASUS\Desktop\Boton\University\build\pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ASUS\Desktop\Boton\University\Boton C:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver C:\Users\ASUS\Desktop\Boton\University\Boton\build C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico-sdk\src\rp2_common\pico_cyw43_driver C:\Users\ASUS\Desktop\Boton\University\Boton\build\pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 
