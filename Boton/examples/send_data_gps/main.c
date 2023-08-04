@@ -193,16 +193,21 @@ int main( void )
     while (1) {
         lorawan_process();
         if(button_pressed || status || !exists){ 
-            gpio_put(GPS_ENABLE, 1);
-            gpio_put(PICO_DEFAULT_LED_PIN, 1);    
+            printf("Entra\n");
+            gpio_put(GPS_ENABLE, 1);   
             const size_t length = uart_read_line(UART_ID, rx_buffer, BUFFER_SIZE);
             if(is_correct(rx_buffer, length)){
                 if (strncmp(rx_buffer, "$GNRMC", strlen("$GNRMC")) == 0 || strncmp(rx_buffer, "$GNGGA", strlen("$GNGGA")) == 0){
+                    printf("%s \n", rx_buffer);
                     exists = decode(rx_buffer, &latitud, &longitud);
-                    if(exists && (button_pressed || status)){
-                        send_gps(&latitud, &longitud, &last_message_time, &counter);
+                    printf("%f %f \n", latitud, longitud);
+                    if(exists){
+                        gpio_put(GPS_ENABLE, 0);
+                        if(button_pressed || status){
+                            send_gps(&latitud, &longitud, &last_message_time, &counter);
+                        }
                     }else{
-                         gpio_put(GPS_ENABLE, 0);
+                         gpio_put(GPS_ENABLE, 1);
                     }
                 }
             }
@@ -217,6 +222,7 @@ int main( void )
 void gpio_int_handler(uint gpio, uint32_t events) {
     if (gpio == INT_BUTTON && (events & GPIO_IRQ_EDGE_RISE)) {
         button_pressed = true;
+        gpio_put(PICO_DEFAULT_LED_PIN, 1); 
     }
 }
 

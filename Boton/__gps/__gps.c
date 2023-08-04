@@ -19,7 +19,7 @@
 #include "__gps.h"
 #include "math.h"
 
-#define PI 3.14159265358979323846
+#define PI 3.141592654
 #define EARTH_RADIUS_KM 6371.0f
 
 bool new_data_available = false;        /**< Booleana que indica cuando se ha recibido una sentence NMEA completa*/
@@ -131,6 +131,14 @@ void extract_lat_long(char* nmea, float* lat, float* lon) {
     }
 }
 
+bool is_Colombia(float *lat, float *lon){
+    if((*lat > -4.22) && (*lat<12.45) && (*lon>-79.0)&& (*lon<-66.85)){
+        return true;
+    }else{
+        return false;
+    }
+}
+
 float toRadians(float degrees) {
     return degrees * PI / 180.0f;
 }
@@ -155,10 +163,10 @@ float calcularDistancia(float *lat1, float *lon1, float *lat2, float *lon2) {
  * @param float * longitud este es el puntero a la variable que contiene la longitud.
  */
 
-bool decode(char gpsString[256], float * latitud, float * longitud) { // Function to decode the GPS string
+bool decode(char gpsString[256], float * latitud_old, float * longitud_old) { // Function to decode the GPS string
   char *token = strtok(gpsString, ","); // Split the string by commas
   char *token_old, *latitude = 0, *longitude = 0; // Variables to store the latitude and longitude
-  float latitud_temp, longitud_temp;
+  float latitud_new, longitud_new;
 /**
  * @brief itera sobre la trama del GPS.
  *
@@ -179,25 +187,29 @@ bool decode(char gpsString[256], float * latitud, float * longitud) { // Functio
   if (latitude != NULL && longitude != NULL){ // If the latitude and longitude are not null, decode them
     float lat = atof(latitude); // Convert the latitude and longitude to float
     int aux = (int)lat/100; // Get the integer part of the latitude and longitude
-    latitud_temp = (lat-(100*aux))/60 + (float)aux; // Convert the latitude and longitude to decimal degrees
+    latitud_new = (lat-(100*aux))/60 + (float)aux; // Convert the latitude and longitude to decimal degrees
     
     float lon = -atof(longitude); // Convert the latitude and longitude to float
     int aux2 = (int)lon/100; // Get the integer part of the latitude and longitude
-    longitud_temp = (lon-(100*aux2))/60 + (float)aux2; // Convert the latitude and longitude to decimal degrees
+    longitud_new = (lon-(100*aux2))/60 + (float)aux2; // Convert the latitude and longitude to decimal degrees
   }
   
-  if((latitud_temp > 0.0) && (longitud_temp < 0.0)){
-    if(calcularDistancia(&latitud_temp, &longitud_temp, latitud, longitud) < 0.01){
+  if(is_Colombia(&latitud_new, &longitud_new)){
+    if(calcularDistancia(&latitud_new, &longitud_new, latitud_old, longitud_old) < 0.01){
+        printf("Nueva Cerca\n");
         return true;
     }else{
-        *latitud = latitud_temp;
-        *longitud = longitud_temp;
+        *latitud_old = latitud_new;
+        *longitud_old = longitud_new;
+        printf("Nueva Lejos\n");
         return true;
     }
   }else{
-    if(*latitud > 0.0 && *longitud<0.0){
+    if(is_Colombia(latitud_old, longitud_old)){
+        printf("Nueva mala, vieja buena\n");
         return true;
     }else{
+        printf("Nueva mala, vieja mala\n");
         return false;
     }
   }
