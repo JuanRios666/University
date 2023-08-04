@@ -36,7 +36,8 @@
 //Variables de interrupciones
 volatile bool button_pressed = false;
 volatile bool int_pressed = false;
-static volatile bool fired = false;
+static volatile bool status = false;
+bool exists = false;
 
 // Configuraciones para el modulo LoRA
 const struct lorawan_sx12xx_settings sx12xx_settings = {
@@ -66,7 +67,10 @@ struct lorawan_abp_settings abp_settings = {
 void wait_for_response(){
     char message[256];
     const size_t length = uart_read_line(uart1, message, sizeof(message));
-    printf("%s\n", message);
+    for(int i = 0; i< length; i++){
+        printf("%hx ", message[i]);
+    }
+    printf("\n");
 
 }
 
@@ -76,9 +80,9 @@ static void alarm_callback(void) {
     char datetime_buf[256];
     char *datetime_str = &datetime_buf[0];
     datetime_to_str(datetime_str, sizeof(datetime_buf), &t);
-    printf("Alarm Fired At %s\n", datetime_str);
+    printf("Alarm status At %s\n", datetime_str);
     stdio_flush();
-    fired = true;
+    status = true;
 }
 
 void calculate_Checksum(uint8_t* data, uint8_t endPos){
@@ -98,11 +102,12 @@ int receive_length = 0;
 uint8_t receive_buffer[242];
 uint8_t receive_port = 0;
 char dev_eui[17];
+float latitud = 0, longitud = 0;
 
 // Funciones usadas en el main
 void gpio_int_handler(uint gpio, uint32_t events);
 void send_gps(float *latitude, float *longitude, uint32_t *last_message_time, uint8_t *count);
-
+bool gps_exists(float *latitude, float *longitude);
 
 int main( void )
 {
@@ -116,7 +121,7 @@ int main( void )
     // ---------------------- initialize the board ---------------------------
     lorawan_default_dev_eui(dev_eui);
     abp_settings.device_address = dev_eui;
-    
+
     stdio_init_all();
     printf("Pico LoRaWAN - Button Panic and GPS\n\n");
     gpio_init(GPS_ENABLE);
@@ -182,30 +187,24 @@ int main( void )
         .min   = 00,
         .sec   = 00
     };
-
     rtc_set_alarm(&alarm, &alarm_callback);
     gpio_put(GPS_ENABLE, 0);
+
     while (1) {
         lorawan_process();
-        if(button_pressed || fired){ 
+        if(button_pressed || status || !exists){ 
             gpio_put(GPS_ENABLE, 1);
             gpio_put(PICO_DEFAULT_LED_PIN, 1);    
             const size_t length = uart_read_line(UART_ID, rx_buffer, BUFFER_SIZE);
-            //send_gps(&latitude, &longitude, &last_message_time, &counter);
-            if(!is_correct(rx_buffer, length)){
-                new_data_available = false;
-            }
-            
-            if(new_data_available){        //ha llegado toda una sentencia GPS
+            if(is_correct(rx_buffer, length)){
                 if (strncmp(rx_buffer, "$GNRMC", strlen("$GNRMC")) == 0 || strncmp(rx_buffer, "$GNGGA", strlen("$GNGGA")) == 0){
-                    //printf("%s\n", rx_buffer);
-                    float latitud = 0, longitud = 0;
-                    decode(rx_buffer, &latitud, &longitud);
-                    if((latitud > 0.0) && (longitud < 0.0)){ //Espera hasta encontrar una coordenada válida
+                    exists = decode(rx_buffer, &latitud, &longitud);
+                    if(exists && (button_pressed || status)){
                         send_gps(&latitud, &longitud, &last_message_time, &counter);
+                    }else{
+                         gpio_put(GPS_ENABLE, 0);
                     }
                 }
-                new_data_available = false;
             }
         }else{
             WAITFORWAKEUP();
@@ -240,7 +239,7 @@ void send_gps(float *latitude, float *longitude, uint32_t *last_message_time, ui
                 if((*count) >= 10){
                     *count = 0;
                     button_pressed = false;
-                    fired = false;
+                    status = false;
                     gpio_put(PICO_DEFAULT_LED_PIN, 0);
                     gpio_put(GPS_ENABLE, 0);
                 }

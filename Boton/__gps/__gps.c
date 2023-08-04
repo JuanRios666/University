@@ -17,6 +17,10 @@
 #include "pico/stdlib.h"
 #include "hardware/uart.h"
 #include "__gps.h"
+#include "math.h"
+
+#define PI 3.14159265358979323846
+#define EARTH_RADIUS_KM 6371.0f
 
 bool new_data_available = false;        /**< Booleana que indica cuando se ha recibido una sentence NMEA completa*/
 char rx_buffer[BUFFER_SIZE];         /*< Buffer que se llena con los datos que van llegando del GPS*/
@@ -127,6 +131,20 @@ void extract_lat_long(char* nmea, float* lat, float* lon) {
     }
 }
 
+float toRadians(float degrees) {
+    return degrees * PI / 180.0f;
+}
+
+float calcularDistancia(float *lat1, float *lon1, float *lat2, float *lon2) {
+    float dLat = toRadians(*lat2 - *lat1);
+    float dLon = toRadians(*lon2 - *lon1);
+
+    float a = sinf(dLat/2) * sinf(dLat/2) + cosf(toRadians(*lat1)) * cosf(toRadians(*lat2)) * sinf(dLon/2) * sinf(dLon/2);
+    float c = 2 * atan2f(sqrtf(a), sqrtf(1-a));
+
+    float distancia = EARTH_RADIUS_KM * c;
+    return distancia;
+}
 /**
  * @brief Decodifica la trama del GPS.
  *
@@ -136,10 +154,11 @@ void extract_lat_long(char* nmea, float* lat, float* lon) {
  * @param float * latitud este es el puntero a la variable que contiene la latitud.
  * @param float * longitud este es el puntero a la variable que contiene la longitud.
  */
-// Define uart properties for the ESP
-void decode(char gpsString[256], float * latitud, float * longitud) { // Function to decode the GPS string
+
+bool decode(char gpsString[256], float * latitud, float * longitud) { // Function to decode the GPS string
   char *token = strtok(gpsString, ","); // Split the string by commas
   char *token_old, *latitude = 0, *longitude = 0; // Variables to store the latitude and longitude
+  float latitud_temp, longitud_temp;
 /**
  * @brief itera sobre la trama del GPS.
  *
@@ -160,13 +179,28 @@ void decode(char gpsString[256], float * latitud, float * longitud) { // Functio
   if (latitude != NULL && longitude != NULL){ // If the latitude and longitude are not null, decode them
     float lat = atof(latitude); // Convert the latitude and longitude to float
     int aux = (int)lat/100; // Get the integer part of the latitude and longitude
-    *latitud = (lat-(100*aux))/60 + (float)aux; // Convert the latitude and longitude to decimal degrees
+    latitud_temp = (lat-(100*aux))/60 + (float)aux; // Convert the latitude and longitude to decimal degrees
     
     float lon = -atof(longitude); // Convert the latitude and longitude to float
     int aux2 = (int)lon/100; // Get the integer part of the latitude and longitude
-    *longitud = (lon-(100*aux2))/60 + (float)aux2; // Convert the latitude and longitude to decimal degrees
+    longitud_temp = (lon-(100*aux2))/60 + (float)aux2; // Convert the latitude and longitude to decimal degrees
   }
   
+  if((latitud_temp > 0.0) && (longitud_temp < 0.0)){
+    if(calcularDistancia(&latitud_temp, &longitud_temp, latitud, longitud) < 0.01){
+        return true;
+    }else{
+        *latitud = latitud_temp;
+        *longitud = longitud_temp;
+        return true;
+    }
+  }else{
+    if(*latitud > 0.0 && *longitud<0.0){
+        return true;
+    }else{
+        return false;
+    }
+  }
 }
 
 /**
