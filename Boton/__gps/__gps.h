@@ -73,7 +73,7 @@ bool uart_rx_handler();
 */
 void extract_lat_long(char* nmea, float* lat, float* lon);
 
-bool decode(char gpsString[256], float * latitud, float * longitud);
+bool decode(char gpsString[256], float * latitud, float * longitud, uint16_t *time);
 size_t uart_read_line(uart_inst_t *uart, char *buffer, const size_t max_length);
 bool is_correct(const char *message, const size_t length);
 void send_with_checksum(uart_inst_t *uart, const char *message, const size_t length);

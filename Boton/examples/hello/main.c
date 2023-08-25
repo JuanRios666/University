@@ -93,7 +93,7 @@ int main( void )
         // since the last message was sent
         uint32_t now = to_ms_since_boot(get_absolute_time());
         
-        if ((now - last_message_time) > 5000) {
+        if ((now - last_message_time) > 3000) {
             const char* message = "hello world!";
 
             // try to send an unconfirmed uplink message

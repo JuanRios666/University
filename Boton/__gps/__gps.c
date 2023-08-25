@@ -163,7 +163,7 @@ float calcularDistancia(float *lat1, float *lon1, float *lat2, float *lon2) {
  * @param float * longitud este es el puntero a la variable que contiene la longitud.
  */
 
-bool decode(char gpsString[256], float * latitud_old, float * longitud_old) { // Function to decode the GPS string
+bool decode(char gpsString[256], float * latitud_old, float * longitud_old, uint16_t *time) { // Function to decode the GPS string
   char *token = strtok(gpsString, ","); // Split the string by commas
   char *token_old, *latitude = 0, *longitude = 0; // Variables to store the latitude and longitude
   float latitud_new, longitud_new;
@@ -179,6 +179,9 @@ bool decode(char gpsString[256], float * latitud_old, float * longitud_old) { //
     }
     else if (strcmp(token, "W") == 0) { // If the token is W, the next token is the longitude
       longitude = token_old; // Store the longitude
+    }
+    if(strcmp(token_old, "GNRMC")==0 ||strcmp(token_old, "GNGGA")==0){
+        *time =  atof(token);
     }
     token_old = token; // Store the current token
     token = strtok(NULL, ","); // Get the next token
@@ -196,20 +199,20 @@ bool decode(char gpsString[256], float * latitud_old, float * longitud_old) { //
   
   if(is_Colombia(&latitud_new, &longitud_new)){
     if(calcularDistancia(&latitud_new, &longitud_new, latitud_old, longitud_old) < 0.01){
-        printf("Nueva Cerca\n");
+        //printf("Nueva Cerca\n");
         return true;
     }else{
         *latitud_old = latitud_new;
         *longitud_old = longitud_new;
-        printf("Nueva Lejos\n");
+        //printf("Nueva Lejos\n");
         return true;
     }
   }else{
     if(is_Colombia(latitud_old, longitud_old)){
-        printf("Nueva mala, vieja buena\n");
+        //printf("Nueva mala, vieja buena\n");
         return true;
     }else{
-        printf("Nueva mala, vieja mala\n");
+        //printf("Nueva mala, vieja mala\n");
         return false;
     }
   }

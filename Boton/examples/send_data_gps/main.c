@@ -163,7 +163,7 @@ int main( void )
 
     uint8_t counter = 0;
     uint32_t last_message_time = 0;
-
+    uint16_t time = 0;
     datetime_t t = {
         .year  = 2023,
         .month = 07,
@@ -193,16 +193,17 @@ int main( void )
     while (1) {
         lorawan_process();
         if(button_pressed || status || !exists){ 
-            printf("Entra\n");
             gpio_put(GPS_ENABLE, 1);   
             const size_t length = uart_read_line(UART_ID, rx_buffer, BUFFER_SIZE);
             if(is_correct(rx_buffer, length)){
                 if (strncmp(rx_buffer, "$GNRMC", strlen("$GNRMC")) == 0 || strncmp(rx_buffer, "$GNGGA", strlen("$GNGGA")) == 0){
                     printf("%s \n", rx_buffer);
-                    exists = decode(rx_buffer, &latitud, &longitud);
-                    printf("%f %f \n", latitud, longitud);
+                    exists = decode(rx_buffer, &latitud, &longitud, &time);
+                    //printf("%f %f \n", latitud, longitud);
                     if(exists){
                         gpio_put(GPS_ENABLE, 0);
+                        t.hour = (time/10000)-5;
+                        t.min = ((time%10000)/100);
                         if(button_pressed || status){
                             send_gps(&latitud, &longitud, &last_message_time, &counter);
                         }
@@ -212,9 +213,17 @@ int main( void )
                 }
             }
         }else{
-            WAITFORWAKEUP();
+            //WAITFORWAKEUP();
+        }
+        receive_length = lorawan_receive(receive_buffer, sizeof(receive_buffer), &receive_port);
+        if (receive_length > -1) {
+            printf("received a %d byte message on port %d: ", receive_length, receive_port);
+
+            for (int i = 0; i < receive_length; i++) {
+                printf("%02x", receive_buffer[i]);
+            }
+            printf("\n");
         }        
-        
     }
     return 0;
 }
@@ -252,4 +261,5 @@ void send_gps(float *latitude, float *longitude, uint32_t *last_message_time, ui
             }
             *last_message_time = now;
         }
+
 }

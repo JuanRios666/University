@@ -32,6 +32,7 @@ def read_txt(dir):
     for line in f:
         print(line)
         RSSI, SNR, msn = decode(str(line))
+        print(RSSI, SNR, msn);
         telemetria = msn.split(',')
         folium.Marker(location=(telemetria[1],telemetria[2]),icon=folium.Icon(color='red', icon='ok-circle', prefix='fa')).add_to(my_map)
         my_map.save('recorrido.html')
