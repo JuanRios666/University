@@ -6,8 +6,7 @@
     las almacena en un buffer. Una vez el buffer esta lleno, se verifica si es la trama correcta
     y se extrae la latitud y longitud de la trama para ser enviadas al servidor
 
-  @author Juan David Rios Rivera - Mario Alejandro Tabares Orjuela
-  @date 07/05/2022
+  @author Juan David Rios Rivera
 
 */
 
@@ -42,11 +41,7 @@ const uint32_t GPS_DELAY = BITS_PER_BYTE * MICROSECONDS_PER_SECOND / GPS_BAUDRAT
 /**
   @brief Inicia el módulo UART para la comunicación con el GPS
   En este caso usa el UART1, con un baudrate de 9600, 8 bits de datos, 1 bit de parada y sin paridad
-  @returns Nothing
-
-  Example:
-  \verbatim
-   \endverbatim
+  @return Nothing
 
 */
 void init_uart1(){
@@ -62,13 +57,7 @@ void init_uart1(){
 /*************************************************************************************************/
 /**
   @brief Función que se llama cuando se recibe una interrupción del UART
-
-  @returns Boleana que indica si ya llego la trama completa
-
-  Example:
-  \verbatim
-   \endverbatim
-
+  @return Boleana que indica si ya llego la trama completa
 */
 bool uart_rx_handler() {
     uint8_t data;
@@ -94,7 +83,7 @@ bool uart_rx_handler() {
   @param lat Apuntador a la variable latitud donde se almacenará el valor de latitud
   @param lon Apuntador a la variable longitud donde se almacenará el valor de longitud
 
-  @returns Nothing
+  @return Nothing
 
 */
 
@@ -130,7 +119,14 @@ void extract_lat_long(char* nmea, float* lat, float* lon) {
         printf("Latitude: %f, Longitude: %f\n", *lat, *lon);
     }
 }
+/*************************************************************************************************/
+/**
+  @brief Función que evalúa si una coordenada se encuentra dentro del territorio colombiano
+  @param lat Apuntador a la variable latitud donde se almacena el valor de latitud
+  @param lon Apuntador a la variable longitud donde se almacena el valor de longitud
+  @return Boleana que indica si esta en colombia la coordenada
 
+*/
 bool is_Colombia(float *lat, float *lon){
     if((*lat > -4.22) && (*lat<12.45) && (*lon>-79.0)&& (*lon<-66.85)){
         return true;
@@ -139,9 +135,28 @@ bool is_Colombia(float *lat, float *lon){
     }
 }
 
+/*************************************************************************************************/
+/**
+  @brief Función que convierte de grados a radianes
+    @param degrees Valor en grados a ser convertido
+    @return Valor en radianes
+
+*/
+
 float toRadians(float degrees) {
     return degrees * PI / 180.0f;
 }
+
+/*************************************************************************************************/
+/**
+  @brief Funcion que calula la distancia en metros entre dos coordenadas
+    @param lat1 Apuntador a la variable latitud donde se almacena el valor de latitud
+    @param lon1 Apuntador a la variable longitud donde se almacena el valor de longitud
+    @param lat2 Apuntador a la variable latitud donde se almacena el valor de latitud
+    @param lon2 Apuntador a la variable longitud donde se almacena el valor de longitud
+    @return Distancia en metros entre las dos coordenadas
+
+*/
 
 float calcularDistancia(float *lat1, float *lon1, float *lat2, float *lon2) {
     float dLat = toRadians(*lat2 - *lat1);
@@ -153,26 +168,31 @@ float calcularDistancia(float *lat1, float *lon1, float *lat2, float *lon2) {
     float distancia = EARTH_RADIUS_KM * c;
     return distancia;
 }
+/*************************************************************************************************/
 /**
  * @brief Decodifica la trama del GPS.
  *
- * Esta función decodifica la trama del GPS y obtiene la latitud y longitud. Y no retorna nada. por lo que se debe usar punteros para obtener los valores.
+ * Esta función decodifica la trama del GPS y obtiene la latitud y longitud.
+ * Tambien verifica si la trama es correcta y si esta en Colombia.
+ * Si la trama es correcta y esta en Colombia, calcula la distancia entre la trama anterior y la nueva.
+ * Si la distancia es menor a 10 metros, retorna true, de lo contrario retorna false.
+ * Si la trama no es correcta, verifica si la trama anterior esta en Colombia.
+ * Si la trama anterior esta en Colombia, retorna true, de lo contrario retorna false.
+ * Si la trama es correcta y no esta en Colombia, verifica si la trama anterior esta en Colombia.
+ * Si la trama anterior esta en Colombia, retorna true, de lo contrario retorna false.
  *
  * @param char gpsString[256] este es el arreglo que contiene la trama del GPS.
  * @param float * latitud este es el puntero a la variable que contiene la latitud.
  * @param float * longitud este es el puntero a la variable que contiene la longitud.
+ * @param uint16_t *time este es el puntero a la variable que contiene el tiempo, para obtener el tiempo de UTC del GPS
+ * @return bool retorna true si la trama es correcta y esta verificada.
  */
 
 bool decode(char gpsString[256], float * latitud_old, float * longitud_old, uint16_t *time) { // Function to decode the GPS string
   char *token = strtok(gpsString, ","); // Split the string by commas
   char *token_old, *latitude = 0, *longitude = 0; // Variables to store the latitude and longitude
   float latitud_new, longitud_new;
-/**
- * @brief itera sobre la trama del GPS.
- *
- * Este while itera sobre la trama del GPS y obtiene la latitud y longitud.
- *
- */
+
   while (token != NULL) { // Iterate over the string
     if (strcmp(token, "N") == 0) { // If the token is N, the next token is the latitude
       latitude = token_old; // Store the latitude
@@ -217,7 +237,7 @@ bool decode(char gpsString[256], float * latitud_old, float * longitud_old, uint
     }
   }
 }
-
+/*************************************************************************************************/
 /**
  * @brief Lee una linea del uart.
  *
@@ -228,7 +248,6 @@ bool decode(char gpsString[256], float * latitud_old, float * longitud_old, uint
  * @param const size_t max_length este es el tamaño maximo del arreglo.
  * @return i retorna el tamaño de la linea.
  */
-// Function to read a line from the uart
 size_t uart_read_line(uart_inst_t *uart, char *buffer, const size_t max_length){ // Function to read a line from the uart
     size_t i;
     // Receive the bytes with as much delay as possible without missing data
@@ -243,7 +262,7 @@ size_t uart_read_line(uart_inst_t *uart, char *buffer, const size_t max_length){
     new_data_available = true;
     return i;
 }
-
+/*************************************************************************************************/
 /**
  * @brief Si la trama es correcta.
  *
@@ -281,7 +300,7 @@ bool is_correct(const char *message, const size_t length){  // Function to check
 
     return strncmp(checksum, message + i + 1, 2) == 0;
 }
-
+/*************************************************************************************************/
 /**
  * @brief Envia un mensaje con checksum.
  *
@@ -291,7 +310,6 @@ bool is_correct(const char *message, const size_t length){  // Function to check
  * @param const char *message este es el arreglo que contiene la trama.
  * @param const size_t length este es el tamaño de la trama.
  */
-// Function to send a message with checksum
 void send_with_checksum(uart_inst_t *uart, const char *message, const size_t length){ 
     char sum = 0;
     char checksum[3];

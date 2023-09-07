@@ -26,18 +26,18 @@
 #include "__gps.h"
 #include "config.h"
 
-#define WAITFORWAKEUP()  __asm volatile ("wfi") //Modo bajo consumo
-#define INT_BUTTON 6
-#define GPS_ENABLE 4
-#define INT_GPS 13
-#define LED_PIN 25
-#define TIMEOUT 5000
+#define WAITFORWAKEUP()  __asm volatile ("wfi") /**<Modo bajo consumo*/
+#define INT_BUTTON 6                            /**<Define el pin de la interrupción del botón de pánico*/
+#define GPS_ENABLE 4                            /**<Define el pin de habilitación del GPS*/
+#define INT_GPS 13                              /**<Define el pin de interrupción del GPS*/
+#define LED_PIN 25                              /**<Define el pin del led de la placa*/
+#define TIMEOUT 5000                            /**<Define el tiempo de espera para enviar un mensaje de pánico*/
 
 //Variables de interrupciones
-volatile bool button_pressed = false;
-volatile bool int_pressed = false;
-static volatile bool status = false;
-bool exists = false;
+volatile bool button_pressed = false;           /**<Variable que indica si se ha presionado el botón de pánico*/
+volatile bool int_pressed = false;              /**<Variable que indica si se ha recibido una interrupción del GPS*/
+static volatile bool status = false;            /**<Variable que indica si se ha recibido una interrupción del RTC*/
+bool exists = false;                            /**<Variable que indica si se ha recibido una trama correcta del GPS*/
 
 // Configuraciones para el modulo LoRA
 const struct lorawan_sx12xx_settings sx12xx_settings = {
@@ -64,6 +64,7 @@ struct lorawan_abp_settings abp_settings = {
 };
 
 
+// Función que espera una respuesta una vez se ha enviado una trama de configuracion al gps
 void wait_for_response(){
     char message[256];
     const size_t length = uart_read_line(uart1, message, sizeof(message));
@@ -74,6 +75,7 @@ void wait_for_response(){
 
 }
 
+// Función que se ejecuta cuando se activa una alarma
 static void alarm_callback(void) {
     datetime_t t = {0};
     rtc_get_datetime(&t);
@@ -85,6 +87,7 @@ static void alarm_callback(void) {
     status = true;
 }
 
+// Fuuncion que calcula el checksum de una trama GPS
 void calculate_Checksum(uint8_t* data, uint8_t endPos){
     uint8_t CK_A = 0;
     uint8_t CK_B = 0;
@@ -113,10 +116,6 @@ int main( void )
 {
     const char CONFIGURATIONS[] = "PMTK103"; 
     const char CONFIGURATIONS2[] = "PMTK314,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0";
-    /*uint8_t config[10] = {0xB5, 0x62, 0x06, 0x11, 0x02, 0x00, 0x00, 0x01, 0x00, 0x00}; //RXM
-    uint8_t config2[16] = {0xB5, 0x62, 0x02, 0x41, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00};//PMG
-    calculate_Checksum(config, sizeof(config)-2);
-    calculate_Checksum(config2, sizeof(config2)-2);*/
 
     // ---------------------- initialize the board ---------------------------
     lorawan_default_dev_eui(dev_eui);
@@ -128,13 +127,11 @@ int main( void )
     gpio_set_dir(GPS_ENABLE, GPIO_OUT);
     gpio_put(GPS_ENABLE, 1);
     sleep_ms(4000);
-    printf("DEV_ADDR: %s\n", abp_settings.device_address);
+    printf("DEV_ADDR: %s\n", abp_settings.device_address);                  
     printf("APP_SKEY: %s\n", abp_settings.app_session_key);
     printf("APP_NSKEY: %s\n", abp_settings.network_session_key);
 
     init_uart1();
-    //uart_write_blocking(UART_ID, config2, sizeof(config2));
-    //wait_for_response();
     send_with_checksum(UART_ID, CONFIGURATIONS, sizeof(CONFIGURATIONS));
     wait_for_response();
 
@@ -149,7 +146,7 @@ int main( void )
         printf("success!\n");
     }
 
-    //----------Interrupcion del Botón de Pánico-----------
+    // ----------------------Interrupcion del Botón de Pánico----------------------
     gpio_init(INT_BUTTON);                      //inicio el boton de la interrupción
     gpio_set_dir(INT_BUTTON, GPIO_IN);          //seteo el boton como entrada
     gpio_pull_up(INT_BUTTON);                   //activo la resistencia de pull up
@@ -177,7 +174,7 @@ int main( void )
     rtc_init();
     rtc_set_datetime(&t);
 
-    // Alarm once a minute
+    // Estructura para configurar la alarma cada dia a las 12:00m
     datetime_t alarm = {
         .year  = -1,
         .month = -1,
@@ -199,7 +196,6 @@ int main( void )
                 if (strncmp(rx_buffer, "$GNRMC", strlen("$GNRMC")) == 0 || strncmp(rx_buffer, "$GNGGA", strlen("$GNGGA")) == 0){
                     printf("%s \n", rx_buffer);
                     exists = decode(rx_buffer, &latitud, &longitud, &time);
-                    //printf("%f %f \n", latitud, longitud);
                     if(exists){
                         gpio_put(GPS_ENABLE, 0);
                         t.hour = (time/10000)-5;
@@ -213,17 +209,8 @@ int main( void )
                 }
             }
         }else{
-            //WAITFORWAKEUP();
-        }
-        receive_length = lorawan_receive(receive_buffer, sizeof(receive_buffer), &receive_port);
-        if (receive_length > -1) {
-            printf("received a %d byte message on port %d: ", receive_length, receive_port);
-
-            for (int i = 0; i < receive_length; i++) {
-                printf("%02x", receive_buffer[i]);
-            }
-            printf("\n");
-        }        
+            WAITFORWAKEUP();
+        }   
     }
     return 0;
 }
@@ -260,6 +247,16 @@ void send_gps(float *latitude, float *longitude, uint32_t *last_message_time, ui
                 }
             }
             *last_message_time = now;
+
+            receive_length = lorawan_receive(receive_buffer, sizeof(receive_buffer), &receive_port);
+            if (receive_length > -1) {
+                printf("received a %d byte message on port %d: ", receive_length, receive_port);
+
+                for (int i = 0; i < receive_length; i++) {
+                    printf("%02x", receive_buffer[i]);
+                }
+                printf("\n");
+            }     
         }
 
 }
