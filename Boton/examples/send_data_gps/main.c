@@ -29,13 +29,13 @@
 #define WAITFORWAKEUP()  __asm volatile ("wfi") /**<Modo bajo consumo*/
 #define INT_BUTTON 6                            /**<Define el pin de la interrupción del botón de pánico*/
 #define GPS_ENABLE 4                            /**<Define el pin de habilitación del GPS*/
-#define INT_GPS 13                              /**<Define el pin de interrupción del GPS*/
+#define IS_OPENED 13                            /**<Define el pin de interrupción de apertura*/
 #define LED_PIN 25                              /**<Define el pin del led de la placa*/
 #define TIMEOUT 5000                            /**<Define el tiempo de espera para enviar un mensaje de pánico*/
 
 //Variables de interrupciones
 volatile bool button_pressed = false;           /**<Variable que indica si se ha presionado el botón de pánico*/
-volatile bool int_pressed = false;              /**<Variable que indica si se ha recibido una interrupción del GPS*/
+volatile bool is_opened = false;              /**<Variable que indica si se ha recibido una interrupción del GPS*/
 static volatile bool status = false;            /**<Variable que indica si se ha recibido una interrupción del RTC*/
 bool exists = false;                            /**<Variable que indica si se ha recibido una trama correcta del GPS*/
 
@@ -153,6 +153,12 @@ int main( void )
     gpio_set_irq_enabled_with_callback(INT_BUTTON, GPIO_IRQ_EDGE_RISE, true, &gpio_int_handler);
     irq_set_enabled(INT_BUTTON, true);
     irq_set_priority(INT_BUTTON, 0);
+    // ----------------------Interrupcion de apertura----------------------
+    gpio_init(IS_OPENED);                      //inicio el boton de la interrupción
+    gpio_set_dir(IS_OPENED, GPIO_IN);          //seteo el boton como entrada
+    gpio_pull_up(IS_OPENED);                   //activo la resistencia de pull up
+    gpio_set_irq_enabled_with_callback(IS_OPENED, GPIO_IRQ_EDGE_RISE, true, &gpio_int_handler);
+    irq_set_enabled(IS_OPENED, true);
 
     gpio_init(PICO_DEFAULT_LED_PIN);
     gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
@@ -189,7 +195,7 @@ int main( void )
 
     while (1) {
         lorawan_process();
-        if(button_pressed || status || !exists){ 
+        if(button_pressed || status || !exists || is_opened){ 
             gpio_put(GPS_ENABLE, 1);   
             const size_t length = uart_read_line(UART_ID, rx_buffer, BUFFER_SIZE);
             if(is_correct(rx_buffer, length)){
@@ -200,7 +206,7 @@ int main( void )
                         gpio_put(GPS_ENABLE, 0);
                         t.hour = (time/10000)-5;
                         t.min = ((time%10000)/100);
-                        if(button_pressed || status){
+                        if(button_pressed || status || is_opened){
                             send_gps(&latitud, &longitud, &last_message_time, &counter);
                         }
                     }else{
@@ -215,9 +221,16 @@ int main( void )
     return 0;
 }
 
+/**
+ * @brief Funcion que maneja las interrupciones de los pines
+*/
 void gpio_int_handler(uint gpio, uint32_t events) {
     if (gpio == INT_BUTTON && (events & GPIO_IRQ_EDGE_RISE)) {
         button_pressed = true;
+        gpio_put(PICO_DEFAULT_LED_PIN, 1); 
+    }
+    if (gpio == IS_OPENED && (events & GPIO_IRQ_EDGE_RISE)) {
+        is_opened = true;
         gpio_put(PICO_DEFAULT_LED_PIN, 1); 
     }
 }
